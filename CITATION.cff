@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Stable Audio 3 Bonsai Ternary"
+message: "Please cite the repository and the exact model manifest when using this personal-study artifact."
+type: software
+authors:
+  - family-names: Gaillard
+    given-names: Guillaume
+abstract: >-
+  Reproducible extraction of a Bonsai-style ternary Stable Audio 3 Medium DiT
+  core with G32 packing, native support tensors, export metadata, and fresh
+  reload evidence.
+repository-code: https://github.com/guillaume-rebaze/stable-audio-3-ternarisation
+url: https://huggingface.co/guillaume-rebaze/stable-audio-3-ternarisation
+license: other
+keywords:
+  - Stable Audio 3
+  - ternary quantization
+  - model compression
+  - MLX
+  - audio generation
+version: 1.0.0
+date-released: 2026-09-26

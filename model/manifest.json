@@ -1,0 +1,3338 @@
+{
+  "acceptance": {
+    "file": "acceptance.json",
+    "objective_release_gate": false,
+    "status": "accepted_local_personal_study",
+    "user_reviewed": true
+  },
+  "created_utc": "2026-09-25T21:07:15.221573+00:00",
+  "format": {
+    "code_bits": 2,
+    "core_values": [
+      -1,
+      0,
+      1
+    ],
+    "payload_format": "NPZ/ZIP with native support members and packed core members",
+    "representation": "W = scale * q",
+    "reserved_code": 3,
+    "runtime": "direct symmetric or block-input Hadamard symmetric"
+  },
+  "model": {
+    "block_count": 24,
+    "core_matrices_per_block": 7,
+    "crop_len": 128,
+    "dit": "medium",
+    "family": "stable-audio-3",
+    "group_size": 32
+  },
+  "provenance": {
+    "cascade_manifest": {
+      "bytes": 928737,
+      "path": "/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/cascade-manifest-g32-hadamard-v10.json",
+      "sha256": "226c53cda0dac83e8c0fec7ae9da189784f44b18927c3c37d65f54002dd37702"
+    },
+    "records_checkpoint": {
+      "bytes": 404007992,
+      "path": "/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/full-dit-cascade-g32-112/cascade-block23-g32/pointwise/records_checkpoint.npz",
+      "sha256": "dcc7f3607cb2580c60f7515de74058096feb6face955edcc37204044afdf62a4"
+    },
+    "teacher_weights": {
+      "bytes": 2907300946,
+      "path": "/Users/guillaumegaillard/.cache/onus/stable-audio-3-mlx/optimized/mlx/models/mlx/dit_medium_f16.npz",
+      "sha256": "f9e5647ea3225818657d47d47ae4b34afa29c0568206ca89566c1a758944a38e"
+    }
+  },
+  "schema": "onus.ternary-quality/v10-bonsai-package",
+  "scope": {
+    "core": [
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.0.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.0.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.0.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.0.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30502389978479455
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.0.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.0.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.0.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.0.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3049367268880208
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.0.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.0.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.0.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.0.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.3090430365668403
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.0.ff.ff.0.proj.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.0.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.0.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.0.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.0.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3148946762084961
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.0.ff.ff.2.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.0.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.0.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.0.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.0.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.3379416995578342
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.0.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.0.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.0.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.0.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30716493394639754
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.0.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.0.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.0.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.0.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30655042860243054
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.1.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.1.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.1.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.1.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30496766832139754
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.1.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.1.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.1.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.1.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3051740858289931
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.1.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.1.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.1.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.1.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.3080166710747613
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.1.ff.ff.0.proj.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.1.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.1.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.1.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.1.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.31256495581732857
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.1.ff.ff.2.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.1.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.1.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.1.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.1.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.3205597135755751
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.1.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.1.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.1.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.1.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3049977620442708
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.1.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.1.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.1.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.1.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.3116349114312066
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.10.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.10.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.10.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.10.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30494421499746815
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.10.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.10.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.10.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.10.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30466249254014754
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.10.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.10.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.10.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.10.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.304637697007921
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.10.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.10.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.10.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.10.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.10.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30452648798624676
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.10.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.10.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.10.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.10.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.10.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30475542280409074
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.10.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.10.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.10.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.10.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3050278557671441
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.10.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.10.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.10.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.10.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30471284654405384
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.11.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.11.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.11.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.11.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3052419026692708
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.11.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.11.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.11.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.11.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3053754170735677
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.11.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.11.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.11.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.11.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30498695373535156
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.11.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.11.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.11.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.11.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.11.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3044133186340332
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.11.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.11.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.11.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.11.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.11.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30461258358425564
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.11.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.11.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.11.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.11.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3053177727593316
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.11.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.11.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.11.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.11.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30462671915690104
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.12.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.12.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.12.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.12.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30498391610604747
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.12.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.12.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.12.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.12.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3054762946234809
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.12.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.12.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.12.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.12.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30479176839192706
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.12.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.12.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.12.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.12.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.12.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3046012984381782
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.12.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.12.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.12.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.12.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.12.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30485640631781685
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.12.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.12.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.12.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.12.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3053025139702691
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.12.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.12.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.12.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.12.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30463222927517364
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.13.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.13.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.13.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.13.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3048806367097078
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.13.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.13.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.13.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.13.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30548180474175346
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.13.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.13.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.13.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.13.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.3046451144748264
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.13.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.13.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.13.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.13.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.13.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3046523729960124
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.13.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.13.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.13.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.13.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.13.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30446720123291016
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.13.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.13.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.13.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.13.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30520036485460067
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.13.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.13.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.13.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.13.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30478914048936634
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.14.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.14.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.14.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.14.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3047738251862703
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.14.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.14.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.14.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.14.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3046637641059028
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.14.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.14.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.14.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.14.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30481741163465714
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.14.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.14.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.14.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.14.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.14.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30461544460720485
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.14.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.14.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.14.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.14.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.14.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.3045627805921767
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.14.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.14.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.14.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.14.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30517874823676217
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.14.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.14.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.14.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.14.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.3045066833496094
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.15.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.15.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.15.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.15.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30480773360640917
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.15.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.15.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.15.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.15.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3051656087239583
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.15.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.15.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.15.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.15.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.3046790228949653
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.15.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.15.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.15.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.15.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.15.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3043717278374566
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.15.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.15.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.15.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.15.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.15.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30457528432210285
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.15.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.15.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.15.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.15.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30514483981662327
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.15.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.15.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.15.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.15.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.3044521755642361
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.16.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.16.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.16.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.16.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30512717918113424
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.16.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.16.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.16.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.16.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30481211344401044
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.16.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.16.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.16.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.16.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30454593234592015
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.16.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.16.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.16.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.16.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.16.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.304376761118571
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.16.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.16.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.16.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.16.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.16.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30444812774658203
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.16.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.16.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.16.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.16.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30537838406032985
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.16.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.16.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.16.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.16.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30470911661783856
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.17.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.17.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.17.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.17.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3050573843496817
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.17.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.17.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.17.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.17.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30486509535047746
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.17.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.17.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.17.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.17.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30462646484375
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.17.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.17.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.17.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.17.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.17.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30447567833794487
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.17.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.17.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.17.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.17.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.17.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30425188276502824
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.17.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.17.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.17.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.17.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3045149909125434
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.17.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.17.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.17.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.17.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30443013509114586
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.18.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.18.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.18.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.18.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3049177946867766
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.18.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.18.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.18.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.18.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30507829454210067
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.18.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.18.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.18.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.18.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.304718017578125
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.18.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.18.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.18.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.18.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.18.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3043562041388618
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.18.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.18.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.18.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.18.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.18.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.303696420457628
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.18.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.18.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.18.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.18.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30466122097439235
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.18.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.18.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.18.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.18.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30461714002821183
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.19.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.19.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.19.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.19.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30477481418185765
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.19.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.19.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.19.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.19.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3047146267361111
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.19.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.19.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.19.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.19.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30465994940863717
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.19.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.19.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.19.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.19.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.19.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3044338756137424
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.19.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.19.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.19.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.19.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.19.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.3037344614664714
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.19.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.19.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.19.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.19.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30473242865668404
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.19.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.19.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.19.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.19.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30468402438693576
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.2.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.2.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.2.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.2.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3045948169849537
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.2.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.2.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.2.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.2.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30493121676974827
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.2.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.2.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.2.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.2.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.3071765899658203
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.2.ff.ff.0.proj.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.2.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.2.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.2.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.2.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3104869524637858
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.2.ff.ff.2.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.2.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.2.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.2.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.2.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.3153832753499349
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.2.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.2.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.2.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.2.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30469724867078996
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.2.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.2.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.2.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.2.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.3104515075683594
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.20.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.20.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.20.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.20.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30522070990668404
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.20.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.20.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.20.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.20.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3054470486111111
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.20.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.20.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.20.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.20.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30488819546169704
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.20.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.20.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.20.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.20.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.20.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3040718502468533
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.20.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.20.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.20.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.20.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.20.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30361398061116535
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.20.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.20.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.20.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.20.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3055555555555556
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.20.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.20.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.20.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.20.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30469267103407116
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.21.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.21.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.21.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.21.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30495961507161456
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.21.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.21.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.21.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.21.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3048574659559462
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.21.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.21.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.21.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.21.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.3052145640055339
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.21.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.21.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.21.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.21.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.21.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30407269795735675
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.21.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.21.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.21.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.21.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.21.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.303966310289171
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.21.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.21.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.21.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.21.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30540381537543404
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.21.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.21.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.21.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.21.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.3042428758409288
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.22.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.22.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.22.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.22.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30488628811306423
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.22.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.22.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.22.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.22.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30474768744574654
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.22.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.22.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.22.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.22.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30488162570529515
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.22.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.22.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.22.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.22.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.22.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30426025390625
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.22.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.22.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.22.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.22.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.22.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30377960205078125
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.22.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.22.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.22.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.22.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30526987711588544
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.22.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.22.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.22.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.22.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.3046315511067708
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.23.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.23.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.23.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.23.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30485605310510705
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.23.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.23.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.23.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.23.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3048896789550781
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.23.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.23.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.23.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.23.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.3045921325683594
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.23.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.23.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.23.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.23.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.23.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30361080169677734
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.23.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.23.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.23.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.23.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.23.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.3021108839246962
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.23.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.23.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.23.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.23.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30510203043619794
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.23.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.23.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.23.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.23.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30417124430338544
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.3.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.3.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.3.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.3.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3050466466833044
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.3.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.3.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.3.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.3.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30537372165256077
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.3.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.3.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.3.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.3.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.3070062001546224
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.3.ff.ff.0.proj.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.3.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.3.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.3.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.3.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30980698267618817
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.3.ff.ff.2.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.3.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.3.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.3.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.3.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.31286419762505424
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.3.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.3.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.3.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.3.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3049515618218316
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.3.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.3.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.3.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.3.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.3085470411512587
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.4.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.4.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.4.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.4.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3047438727484809
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.4.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.4.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.4.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.4.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30458026462131077
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.4.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.4.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.4.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.4.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30721622043185765
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.4.ff.ff.0.proj.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.4.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.4.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.4.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.4.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3095722728305393
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.4.ff.ff.2.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.4.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.4.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.4.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.4.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.3108763164944119
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.4.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.4.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.4.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.4.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30481550428602433
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.4.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.4.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.4.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.4.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30873531765407985
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.5.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.5.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.5.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.5.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3049518443919994
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.5.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.5.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.5.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.5.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30499309963650173
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.5.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.5.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.5.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.5.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30683157179090714
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.5.ff.ff.0.proj.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.5.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.5.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.5.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.5.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30947420332166886
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": "transformer.layers.5.ff.ff.2.bias",
+        "mode": "symmetric",
+        "name": "transformer.layers.5.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.5.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.5.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.5.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.3100159962972005
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.5.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.5.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.5.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.5.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30480194091796875
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": false,
+        "linear_bias_member": null,
+        "mode": "symmetric",
+        "name": "transformer.layers.5.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.5.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.5.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.5.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30888298882378473
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.6.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.6.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.6.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.6.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3048537925437645
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.6.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.6.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.6.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.6.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30503887600368923
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.6.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.6.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.6.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.6.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30481062995062935
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.6.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.6.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.6.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.6.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.6.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30468135409884983
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.6.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.6.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.6.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.6.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.6.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30416509840223527
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.6.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.6.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.6.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.6.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3051312764485677
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.6.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.6.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.6.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.6.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.3048587375217014
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.7.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.7.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.7.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.7.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30502870347764754
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.7.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.7.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.7.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.7.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3046807183159722
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.7.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.7.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.7.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.7.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.3046703338623047
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.7.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.7.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.7.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.7.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.7.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.30456988016764325
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.7.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.7.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.7.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.7.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.7.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30462943183051217
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.7.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.7.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.7.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.7.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3053080240885417
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.7.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.7.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.7.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.7.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30467537773980036
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.8.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.8.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.8.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.8.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.3049446388527199
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.8.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.8.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.8.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.8.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3048845926920573
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.8.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.8.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.8.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.8.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30477354261610246
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.8.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.8.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.8.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.8.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.8.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3046126365661621
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.8.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.8.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.8.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.8.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.8.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.3045511245727539
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.8.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.8.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.8.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.8.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30501429239908856
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.8.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.8.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.8.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.8.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.30479838053385416
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.9.cross_attn.to_kv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.9.cross_attn.to_kv.packed_codes",
+        "prefix": "transformer.layers.9.cross_attn.to_kv",
+        "scale_member": "__ternary_core__/transformer.layers.9.cross_attn.to_kv.scales",
+        "shape": [
+          4608,
+          1536
+        ],
+        "zero_fraction": 0.30488628811306423
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.9.cross_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.9.cross_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.9.cross_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.9.cross_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.3049418131510417
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.9.cross_attn.to_q.weight",
+        "packed_member": "__ternary_core__/transformer.layers.9.cross_attn.to_q.packed_codes",
+        "prefix": "transformer.layers.9.cross_attn.to_q",
+        "scale_member": "__ternary_core__/transformer.layers.9.cross_attn.to_q.scales",
+        "shape": [
+          3072,
+          1536
+        ],
+        "zero_fraction": 0.30502425299750435
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.9.ff.ff.0.proj.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.9.ff.ff.0.proj.weight",
+        "packed_member": "__ternary_core__/transformer.layers.9.ff.ff.0.proj.packed_codes",
+        "prefix": "transformer.layers.9.ff.ff.0.proj",
+        "scale_member": "__ternary_core__/transformer.layers.9.ff.ff.0.proj.scales",
+        "shape": [
+          12288,
+          1536
+        ],
+        "zero_fraction": 0.3045350710550944
+      },
+      {
+        "group_count": 192,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": "transformer.layers.9.ff.ff.2.bias",
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.9.ff.ff.2.weight",
+        "packed_member": "__ternary_core__/transformer.layers.9.ff.ff.2.packed_codes",
+        "prefix": "transformer.layers.9.ff.ff.2",
+        "scale_member": "__ternary_core__/transformer.layers.9.ff.ff.2.scales",
+        "shape": [
+          1536,
+          6144
+        ],
+        "zero_fraction": 0.30470265282524955
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.9.self_attn.to_out.weight",
+        "packed_member": "__ternary_core__/transformer.layers.9.self_attn.to_out.packed_codes",
+        "prefix": "transformer.layers.9.self_attn.to_out",
+        "scale_member": "__ternary_core__/transformer.layers.9.self_attn.to_out.scales",
+        "shape": [
+          1536,
+          1536
+        ],
+        "zero_fraction": 0.30501344468858504
+      },
+      {
+        "group_count": 48,
+        "group_size": 32,
+        "hadamard_input": true,
+        "linear_bias_member": null,
+        "mode": "symmetric_hadamard",
+        "name": "transformer.layers.9.self_attn.to_qkv.weight",
+        "packed_member": "__ternary_core__/transformer.layers.9.self_attn.to_qkv.packed_codes",
+        "prefix": "transformer.layers.9.self_attn.to_qkv",
+        "scale_member": "__ternary_core__/transformer.layers.9.self_attn.to_qkv.scales",
+        "shape": [
+          7680,
+          1536
+        ],
+        "zero_fraction": 0.3047860039605035
+      }
+    ],
+    "core_count": 168,
+    "core_names": [
+      "transformer.layers.0.cross_attn.to_kv.weight",
+      "transformer.layers.0.cross_attn.to_out.weight",
+      "transformer.layers.0.cross_attn.to_q.weight",
+      "transformer.layers.0.ff.ff.0.proj.weight",
+      "transformer.layers.0.ff.ff.2.weight",
+      "transformer.layers.0.self_attn.to_out.weight",
+      "transformer.layers.0.self_attn.to_qkv.weight",
+      "transformer.layers.1.cross_attn.to_kv.weight",
+      "transformer.layers.1.cross_attn.to_out.weight",
+      "transformer.layers.1.cross_attn.to_q.weight",
+      "transformer.layers.1.ff.ff.0.proj.weight",
+      "transformer.layers.1.ff.ff.2.weight",
+      "transformer.layers.1.self_attn.to_out.weight",
+      "transformer.layers.1.self_attn.to_qkv.weight",
+      "transformer.layers.10.cross_attn.to_kv.weight",
+      "transformer.layers.10.cross_attn.to_out.weight",
+      "transformer.layers.10.cross_attn.to_q.weight",
+      "transformer.layers.10.ff.ff.0.proj.weight",
+      "transformer.layers.10.ff.ff.2.weight",
+      "transformer.layers.10.self_attn.to_out.weight",
+      "transformer.layers.10.self_attn.to_qkv.weight",
+      "transformer.layers.11.cross_attn.to_kv.weight",
+      "transformer.layers.11.cross_attn.to_out.weight",
+      "transformer.layers.11.cross_attn.to_q.weight",
+      "transformer.layers.11.ff.ff.0.proj.weight",
+      "transformer.layers.11.ff.ff.2.weight",
+      "transformer.layers.11.self_attn.to_out.weight",
+      "transformer.layers.11.self_attn.to_qkv.weight",
+      "transformer.layers.12.cross_attn.to_kv.weight",
+      "transformer.layers.12.cross_attn.to_out.weight",
+      "transformer.layers.12.cross_attn.to_q.weight",
+      "transformer.layers.12.ff.ff.0.proj.weight",
+      "transformer.layers.12.ff.ff.2.weight",
+      "transformer.layers.12.self_attn.to_out.weight",
+      "transformer.layers.12.self_attn.to_qkv.weight",
+      "transformer.layers.13.cross_attn.to_kv.weight",
+      "transformer.layers.13.cross_attn.to_out.weight",
+      "transformer.layers.13.cross_attn.to_q.weight",
+      "transformer.layers.13.ff.ff.0.proj.weight",
+      "transformer.layers.13.ff.ff.2.weight",
+      "transformer.layers.13.self_attn.to_out.weight",
+      "transformer.layers.13.self_attn.to_qkv.weight",
+      "transformer.layers.14.cross_attn.to_kv.weight",
+      "transformer.layers.14.cross_attn.to_out.weight",
+      "transformer.layers.14.cross_attn.to_q.weight",
+      "transformer.layers.14.ff.ff.0.proj.weight",
+      "transformer.layers.14.ff.ff.2.weight",
+      "transformer.layers.14.self_attn.to_out.weight",
+      "transformer.layers.14.self_attn.to_qkv.weight",
+      "transformer.layers.15.cross_attn.to_kv.weight",
+      "transformer.layers.15.cross_attn.to_out.weight",
+      "transformer.layers.15.cross_attn.to_q.weight",
+      "transformer.layers.15.ff.ff.0.proj.weight",
+      "transformer.layers.15.ff.ff.2.weight",
+      "transformer.layers.15.self_attn.to_out.weight",
+      "transformer.layers.15.self_attn.to_qkv.weight",
+      "transformer.layers.16.cross_attn.to_kv.weight",
+      "transformer.layers.16.cross_attn.to_out.weight",
+      "transformer.layers.16.cross_attn.to_q.weight",
+      "transformer.layers.16.ff.ff.0.proj.weight",
+      "transformer.layers.16.ff.ff.2.weight",
+      "transformer.layers.16.self_attn.to_out.weight",
+      "transformer.layers.16.self_attn.to_qkv.weight",
+      "transformer.layers.17.cross_attn.to_kv.weight",
+      "transformer.layers.17.cross_attn.to_out.weight",
+      "transformer.layers.17.cross_attn.to_q.weight",
+      "transformer.layers.17.ff.ff.0.proj.weight",
+      "transformer.layers.17.ff.ff.2.weight",
+      "transformer.layers.17.self_attn.to_out.weight",
+      "transformer.layers.17.self_attn.to_qkv.weight",
+      "transformer.layers.18.cross_attn.to_kv.weight",
+      "transformer.layers.18.cross_attn.to_out.weight",
+      "transformer.layers.18.cross_attn.to_q.weight",
+      "transformer.layers.18.ff.ff.0.proj.weight",
+      "transformer.layers.18.ff.ff.2.weight",
+      "transformer.layers.18.self_attn.to_out.weight",
+      "transformer.layers.18.self_attn.to_qkv.weight",
+      "transformer.layers.19.cross_attn.to_kv.weight",
+      "transformer.layers.19.cross_attn.to_out.weight",
+      "transformer.layers.19.cross_attn.to_q.weight",
+      "transformer.layers.19.ff.ff.0.proj.weight",
+      "transformer.layers.19.ff.ff.2.weight",
+      "transformer.layers.19.self_attn.to_out.weight",
+      "transformer.layers.19.self_attn.to_qkv.weight",
+      "transformer.layers.2.cross_attn.to_kv.weight",
+      "transformer.layers.2.cross_attn.to_out.weight",
+      "transformer.layers.2.cross_attn.to_q.weight",
+      "transformer.layers.2.ff.ff.0.proj.weight",
+      "transformer.layers.2.ff.ff.2.weight",
+      "transformer.layers.2.self_attn.to_out.weight",
+      "transformer.layers.2.self_attn.to_qkv.weight",
+      "transformer.layers.20.cross_attn.to_kv.weight",
+      "transformer.layers.20.cross_attn.to_out.weight",
+      "transformer.layers.20.cross_attn.to_q.weight",
+      "transformer.layers.20.ff.ff.0.proj.weight",
+      "transformer.layers.20.ff.ff.2.weight",
+      "transformer.layers.20.self_attn.to_out.weight",
+      "transformer.layers.20.self_attn.to_qkv.weight",
+      "transformer.layers.21.cross_attn.to_kv.weight",
+      "transformer.layers.21.cross_attn.to_out.weight",
+      "transformer.layers.21.cross_attn.to_q.weight",
+      "transformer.layers.21.ff.ff.0.proj.weight",
+      "transformer.layers.21.ff.ff.2.weight",
+      "transformer.layers.21.self_attn.to_out.weight",
+      "transformer.layers.21.self_attn.to_qkv.weight",
+      "transformer.layers.22.cross_attn.to_kv.weight",
+      "transformer.layers.22.cross_attn.to_out.weight",
+      "transformer.layers.22.cross_attn.to_q.weight",
+      "transformer.layers.22.ff.ff.0.proj.weight",
+      "transformer.layers.22.ff.ff.2.weight",
+      "transformer.layers.22.self_attn.to_out.weight",
+      "transformer.layers.22.self_attn.to_qkv.weight",
+      "transformer.layers.23.cross_attn.to_kv.weight",
+      "transformer.layers.23.cross_attn.to_out.weight",
+      "transformer.layers.23.cross_attn.to_q.weight",
+      "transformer.layers.23.ff.ff.0.proj.weight",
+      "transformer.layers.23.ff.ff.2.weight",
+      "transformer.layers.23.self_attn.to_out.weight",
+      "transformer.layers.23.self_attn.to_qkv.weight",
+      "transformer.layers.3.cross_attn.to_kv.weight",
+      "transformer.layers.3.cross_attn.to_out.weight",
+      "transformer.layers.3.cross_attn.to_q.weight",
+      "transformer.layers.3.ff.ff.0.proj.weight",
+      "transformer.layers.3.ff.ff.2.weight",
+      "transformer.layers.3.self_attn.to_out.weight",
+      "transformer.layers.3.self_attn.to_qkv.weight",
+      "transformer.layers.4.cross_attn.to_kv.weight",
+      "transformer.layers.4.cross_attn.to_out.weight",
+      "transformer.layers.4.cross_attn.to_q.weight",
+      "transformer.layers.4.ff.ff.0.proj.weight",
+      "transformer.layers.4.ff.ff.2.weight",
+      "transformer.layers.4.self_attn.to_out.weight",
+      "transformer.layers.4.self_attn.to_qkv.weight",
+      "transformer.layers.5.cross_attn.to_kv.weight",
+      "transformer.layers.5.cross_attn.to_out.weight",
+      "transformer.layers.5.cross_attn.to_q.weight",
+      "transformer.layers.5.ff.ff.0.proj.weight",
+      "transformer.layers.5.ff.ff.2.weight",
+      "transformer.layers.5.self_attn.to_out.weight",
+      "transformer.layers.5.self_attn.to_qkv.weight",
+      "transformer.layers.6.cross_attn.to_kv.weight",
+      "transformer.layers.6.cross_attn.to_out.weight",
+      "transformer.layers.6.cross_attn.to_q.weight",
+      "transformer.layers.6.ff.ff.0.proj.weight",
+      "transformer.layers.6.ff.ff.2.weight",
+      "transformer.layers.6.self_attn.to_out.weight",
+      "transformer.layers.6.self_attn.to_qkv.weight",
+      "transformer.layers.7.cross_attn.to_kv.weight",
+      "transformer.layers.7.cross_attn.to_out.weight",
+      "transformer.layers.7.cross_attn.to_q.weight",
+      "transformer.layers.7.ff.ff.0.proj.weight",
+      "transformer.layers.7.ff.ff.2.weight",
+      "transformer.layers.7.self_attn.to_out.weight",
+      "transformer.layers.7.self_attn.to_qkv.weight",
+      "transformer.layers.8.cross_attn.to_kv.weight",
+      "transformer.layers.8.cross_attn.to_out.weight",
+      "transformer.layers.8.cross_attn.to_q.weight",
+      "transformer.layers.8.ff.ff.0.proj.weight",
+      "transformer.layers.8.ff.ff.2.weight",
+      "transformer.layers.8.self_attn.to_out.weight",
+      "transformer.layers.8.self_attn.to_qkv.weight",
+      "transformer.layers.9.cross_attn.to_kv.weight",
+      "transformer.layers.9.cross_attn.to_out.weight",
+      "transformer.layers.9.cross_attn.to_q.weight",
+      "transformer.layers.9.ff.ff.0.proj.weight",
+      "transformer.layers.9.ff.ff.2.weight",
+      "transformer.layers.9.self_attn.to_out.weight",
+      "transformer.layers.9.self_attn.to_qkv.weight"
+    ],
+    "support_count": 357,
+    "support_names": [
+      "cond.padding_embedding",
+      "cond.seconds_total_bias",
+      "cond.seconds_total_weight",
+      "postprocess_conv.weight",
+      "preprocess_conv.weight",
+      "to_cond_embed.0.weight",
+      "to_cond_embed.2.weight",
+      "to_global_embed.0.weight",
+      "to_global_embed.2.weight",
+      "to_timestep_embed.0.bias",
+      "to_timestep_embed.0.weight",
+      "to_timestep_embed.2.bias",
+      "to_timestep_embed.2.weight",
+      "transformer.global_cond_embedder.0.bias",
+      "transformer.global_cond_embedder.0.weight",
+      "transformer.global_cond_embedder.2.bias",
+      "transformer.global_cond_embedder.2.weight",
+      "transformer.layers.0.cross_attend_norm.weight",
+      "transformer.layers.0.cross_attn.k_norm.weight",
+      "transformer.layers.0.cross_attn.q_norm.weight",
+      "transformer.layers.0.ff.ff.0.proj.bias",
+      "transformer.layers.0.ff.ff.2.bias",
+      "transformer.layers.0.ff_norm.weight",
+      "transformer.layers.0.pre_norm.weight",
+      "transformer.layers.0.self_attn.k_norm.weight",
+      "transformer.layers.0.self_attn.q_norm.weight",
+      "transformer.layers.0.to_local_embed.seq.0.bias",
+      "transformer.layers.0.to_local_embed.seq.0.weight",
+      "transformer.layers.0.to_local_embed.seq.2.bias",
+      "transformer.layers.0.to_local_embed.seq.2.weight",
+      "transformer.layers.0.to_scale_shift_gate",
+      "transformer.layers.1.cross_attend_norm.weight",
+      "transformer.layers.1.cross_attn.k_norm.weight",
+      "transformer.layers.1.cross_attn.q_norm.weight",
+      "transformer.layers.1.ff.ff.0.proj.bias",
+      "transformer.layers.1.ff.ff.2.bias",
+      "transformer.layers.1.ff_norm.weight",
+      "transformer.layers.1.pre_norm.weight",
+      "transformer.layers.1.self_attn.k_norm.weight",
+      "transformer.layers.1.self_attn.q_norm.weight",
+      "transformer.layers.1.to_local_embed.seq.0.bias",
+      "transformer.layers.1.to_local_embed.seq.0.weight",
+      "transformer.layers.1.to_local_embed.seq.2.bias",
+      "transformer.layers.1.to_local_embed.seq.2.weight",
+      "transformer.layers.1.to_scale_shift_gate",
+      "transformer.layers.10.cross_attend_norm.weight",
+      "transformer.layers.10.cross_attn.k_norm.weight",
+      "transformer.layers.10.cross_attn.q_norm.weight",
+      "transformer.layers.10.ff.ff.0.proj.bias",
+      "transformer.layers.10.ff.ff.2.bias",
+      "transformer.layers.10.ff_norm.weight",
+      "transformer.layers.10.pre_norm.weight",
+      "transformer.layers.10.self_attn.k_norm.weight",
+      "transformer.layers.10.self_attn.q_norm.weight",
+      "transformer.layers.10.to_local_embed.seq.0.bias",
+      "transformer.layers.10.to_local_embed.seq.0.weight",
+      "transformer.layers.10.to_local_embed.seq.2.bias",
+      "transformer.layers.10.to_local_embed.seq.2.weight",
+      "transformer.layers.10.to_scale_shift_gate",
+      "transformer.layers.11.cross_attend_norm.weight",
+      "transformer.layers.11.cross_attn.k_norm.weight",
+      "transformer.layers.11.cross_attn.q_norm.weight",
+      "transformer.layers.11.ff.ff.0.proj.bias",
+      "transformer.layers.11.ff.ff.2.bias",
+      "transformer.layers.11.ff_norm.weight",
+      "transformer.layers.11.pre_norm.weight",
+      "transformer.layers.11.self_attn.k_norm.weight",
+      "transformer.layers.11.self_attn.q_norm.weight",
+      "transformer.layers.11.to_local_embed.seq.0.bias",
+      "transformer.layers.11.to_local_embed.seq.0.weight",
+      "transformer.layers.11.to_local_embed.seq.2.bias",
+      "transformer.layers.11.to_local_embed.seq.2.weight",
+      "transformer.layers.11.to_scale_shift_gate",
+      "transformer.layers.12.cross_attend_norm.weight",
+      "transformer.layers.12.cross_attn.k_norm.weight",
+      "transformer.layers.12.cross_attn.q_norm.weight",
+      "transformer.layers.12.ff.ff.0.proj.bias",
+      "transformer.layers.12.ff.ff.2.bias",
+      "transformer.layers.12.ff_norm.weight",
+      "transformer.layers.12.pre_norm.weight",
+      "transformer.layers.12.self_attn.k_norm.weight",
+      "transformer.layers.12.self_attn.q_norm.weight",
+      "transformer.layers.12.to_local_embed.seq.0.bias",
+      "transformer.layers.12.to_local_embed.seq.0.weight",
+      "transformer.layers.12.to_local_embed.seq.2.bias",
+      "transformer.layers.12.to_local_embed.seq.2.weight",
+      "transformer.layers.12.to_scale_shift_gate",
+      "transformer.layers.13.cross_attend_norm.weight",
+      "transformer.layers.13.cross_attn.k_norm.weight",
+      "transformer.layers.13.cross_attn.q_norm.weight",
+      "transformer.layers.13.ff.ff.0.proj.bias",
+      "transformer.layers.13.ff.ff.2.bias",
+      "transformer.layers.13.ff_norm.weight",
+      "transformer.layers.13.pre_norm.weight",
+      "transformer.layers.13.self_attn.k_norm.weight",
+      "transformer.layers.13.self_attn.q_norm.weight",
+      "transformer.layers.13.to_local_embed.seq.0.bias",
+      "transformer.layers.13.to_local_embed.seq.0.weight",
+      "transformer.layers.13.to_local_embed.seq.2.bias",
+      "transformer.layers.13.to_local_embed.seq.2.weight",
+      "transformer.layers.13.to_scale_shift_gate",
+      "transformer.layers.14.cross_attend_norm.weight",
+      "transformer.layers.14.cross_attn.k_norm.weight",
+      "transformer.layers.14.cross_attn.q_norm.weight",
+      "transformer.layers.14.ff.ff.0.proj.bias",
+      "transformer.layers.14.ff.ff.2.bias",
+      "transformer.layers.14.ff_norm.weight",
+      "transformer.layers.14.pre_norm.weight",
+      "transformer.layers.14.self_attn.k_norm.weight",
+      "transformer.layers.14.self_attn.q_norm.weight",
+      "transformer.layers.14.to_local_embed.seq.0.bias",
+      "transformer.layers.14.to_local_embed.seq.0.weight",
+      "transformer.layers.14.to_local_embed.seq.2.bias",
+      "transformer.layers.14.to_local_embed.seq.2.weight",
+      "transformer.layers.14.to_scale_shift_gate",
+      "transformer.layers.15.cross_attend_norm.weight",
+      "transformer.layers.15.cross_attn.k_norm.weight",
+      "transformer.layers.15.cross_attn.q_norm.weight",
+      "transformer.layers.15.ff.ff.0.proj.bias",
+      "transformer.layers.15.ff.ff.2.bias",
+      "transformer.layers.15.ff_norm.weight",
+      "transformer.layers.15.pre_norm.weight",
+      "transformer.layers.15.self_attn.k_norm.weight",
+      "transformer.layers.15.self_attn.q_norm.weight",
+      "transformer.layers.15.to_local_embed.seq.0.bias",
+      "transformer.layers.15.to_local_embed.seq.0.weight",
+      "transformer.layers.15.to_local_embed.seq.2.bias",
+      "transformer.layers.15.to_local_embed.seq.2.weight",
+      "transformer.layers.15.to_scale_shift_gate",
+      "transformer.layers.16.cross_attend_norm.weight",
+      "transformer.layers.16.cross_attn.k_norm.weight",
+      "transformer.layers.16.cross_attn.q_norm.weight",
+      "transformer.layers.16.ff.ff.0.proj.bias",
+      "transformer.layers.16.ff.ff.2.bias",
+      "transformer.layers.16.ff_norm.weight",
+      "transformer.layers.16.pre_norm.weight",
+      "transformer.layers.16.self_attn.k_norm.weight",
+      "transformer.layers.16.self_attn.q_norm.weight",
+      "transformer.layers.16.to_local_embed.seq.0.bias",
+      "transformer.layers.16.to_local_embed.seq.0.weight",
+      "transformer.layers.16.to_local_embed.seq.2.bias",
+      "transformer.layers.16.to_local_embed.seq.2.weight",
+      "transformer.layers.16.to_scale_shift_gate",
+      "transformer.layers.17.cross_attend_norm.weight",
+      "transformer.layers.17.cross_attn.k_norm.weight",
+      "transformer.layers.17.cross_attn.q_norm.weight",
+      "transformer.layers.17.ff.ff.0.proj.bias",
+      "transformer.layers.17.ff.ff.2.bias",
+      "transformer.layers.17.ff_norm.weight",
+      "transformer.layers.17.pre_norm.weight",
+      "transformer.layers.17.self_attn.k_norm.weight",
+      "transformer.layers.17.self_attn.q_norm.weight",
+      "transformer.layers.17.to_local_embed.seq.0.bias",
+      "transformer.layers.17.to_local_embed.seq.0.weight",
+      "transformer.layers.17.to_local_embed.seq.2.bias",
+      "transformer.layers.17.to_local_embed.seq.2.weight",
+      "transformer.layers.17.to_scale_shift_gate",
+      "transformer.layers.18.cross_attend_norm.weight",
+      "transformer.layers.18.cross_attn.k_norm.weight",
+      "transformer.layers.18.cross_attn.q_norm.weight",
+      "transformer.layers.18.ff.ff.0.proj.bias",
+      "transformer.layers.18.ff.ff.2.bias",
+      "transformer.layers.18.ff_norm.weight",
+      "transformer.layers.18.pre_norm.weight",
+      "transformer.layers.18.self_attn.k_norm.weight",
+      "transformer.layers.18.self_attn.q_norm.weight",
+      "transformer.layers.18.to_local_embed.seq.0.bias",
+      "transformer.layers.18.to_local_embed.seq.0.weight",
+      "transformer.layers.18.to_local_embed.seq.2.bias",
+      "transformer.layers.18.to_local_embed.seq.2.weight",
+      "transformer.layers.18.to_scale_shift_gate",
+      "transformer.layers.19.cross_attend_norm.weight",
+      "transformer.layers.19.cross_attn.k_norm.weight",
+      "transformer.layers.19.cross_attn.q_norm.weight",
+      "transformer.layers.19.ff.ff.0.proj.bias",
+      "transformer.layers.19.ff.ff.2.bias",
+      "transformer.layers.19.ff_norm.weight",
+      "transformer.layers.19.pre_norm.weight",
+      "transformer.layers.19.self_attn.k_norm.weight",
+      "transformer.layers.19.self_attn.q_norm.weight",
+      "transformer.layers.19.to_local_embed.seq.0.bias",
+      "transformer.layers.19.to_local_embed.seq.0.weight",
+      "transformer.layers.19.to_local_embed.seq.2.bias",
+      "transformer.layers.19.to_local_embed.seq.2.weight",
+      "transformer.layers.19.to_scale_shift_gate",
+      "transformer.layers.2.cross_attend_norm.weight",
+      "transformer.layers.2.cross_attn.k_norm.weight",
+      "transformer.layers.2.cross_attn.q_norm.weight",
+      "transformer.layers.2.ff.ff.0.proj.bias",
+      "transformer.layers.2.ff.ff.2.bias",
+      "transformer.layers.2.ff_norm.weight",
+      "transformer.layers.2.pre_norm.weight",
+      "transformer.layers.2.self_attn.k_norm.weight",
+      "transformer.layers.2.self_attn.q_norm.weight",
+      "transformer.layers.2.to_local_embed.seq.0.bias",
+      "transformer.layers.2.to_local_embed.seq.0.weight",
+      "transformer.layers.2.to_local_embed.seq.2.bias",
+      "transformer.layers.2.to_local_embed.seq.2.weight",
+      "transformer.layers.2.to_scale_shift_gate",
+      "transformer.layers.20.cross_attend_norm.weight",
+      "transformer.layers.20.cross_attn.k_norm.weight",
+      "transformer.layers.20.cross_attn.q_norm.weight",
+      "transformer.layers.20.ff.ff.0.proj.bias",
+      "transformer.layers.20.ff.ff.2.bias",
+      "transformer.layers.20.ff_norm.weight",
+      "transformer.layers.20.pre_norm.weight",
+      "transformer.layers.20.self_attn.k_norm.weight",
+      "transformer.layers.20.self_attn.q_norm.weight",
+      "transformer.layers.20.to_local_embed.seq.0.bias",
+      "transformer.layers.20.to_local_embed.seq.0.weight",
+      "transformer.layers.20.to_local_embed.seq.2.bias",
+      "transformer.layers.20.to_local_embed.seq.2.weight",
+      "transformer.layers.20.to_scale_shift_gate",
+      "transformer.layers.21.cross_attend_norm.weight",
+      "transformer.layers.21.cross_attn.k_norm.weight",
+      "transformer.layers.21.cross_attn.q_norm.weight",
+      "transformer.layers.21.ff.ff.0.proj.bias",
+      "transformer.layers.21.ff.ff.2.bias",
+      "transformer.layers.21.ff_norm.weight",
+      "transformer.layers.21.pre_norm.weight",
+      "transformer.layers.21.self_attn.k_norm.weight",
+      "transformer.layers.21.self_attn.q_norm.weight",
+      "transformer.layers.21.to_local_embed.seq.0.bias",
+      "transformer.layers.21.to_local_embed.seq.0.weight",
+      "transformer.layers.21.to_local_embed.seq.2.bias",
+      "transformer.layers.21.to_local_embed.seq.2.weight",
+      "transformer.layers.21.to_scale_shift_gate",
+      "transformer.layers.22.cross_attend_norm.weight",
+      "transformer.layers.22.cross_attn.k_norm.weight",
+      "transformer.layers.22.cross_attn.q_norm.weight",
+      "transformer.layers.22.ff.ff.0.proj.bias",
+      "transformer.layers.22.ff.ff.2.bias",
+      "transformer.layers.22.ff_norm.weight",
+      "transformer.layers.22.pre_norm.weight",
+      "transformer.layers.22.self_attn.k_norm.weight",
+      "transformer.layers.22.self_attn.q_norm.weight",
+      "transformer.layers.22.to_local_embed.seq.0.bias",
+      "transformer.layers.22.to_local_embed.seq.0.weight",
+      "transformer.layers.22.to_local_embed.seq.2.bias",
+      "transformer.layers.22.to_local_embed.seq.2.weight",
+      "transformer.layers.22.to_scale_shift_gate",
+      "transformer.layers.23.cross_attend_norm.weight",
+      "transformer.layers.23.cross_attn.k_norm.weight",
+      "transformer.layers.23.cross_attn.q_norm.weight",
+      "transformer.layers.23.ff.ff.0.proj.bias",
+      "transformer.layers.23.ff.ff.2.bias",
+      "transformer.layers.23.ff_norm.weight",
+      "transformer.layers.23.pre_norm.weight",
+      "transformer.layers.23.self_attn.k_norm.weight",
+      "transformer.layers.23.self_attn.q_norm.weight",
+      "transformer.layers.23.to_local_embed.seq.0.bias",
+      "transformer.layers.23.to_local_embed.seq.0.weight",
+      "transformer.layers.23.to_local_embed.seq.2.bias",
+      "transformer.layers.23.to_local_embed.seq.2.weight",
+      "transformer.layers.23.to_scale_shift_gate",
+      "transformer.layers.3.cross_attend_norm.weight",
+      "transformer.layers.3.cross_attn.k_norm.weight",
+      "transformer.layers.3.cross_attn.q_norm.weight",
+      "transformer.layers.3.ff.ff.0.proj.bias",
+      "transformer.layers.3.ff.ff.2.bias",
+      "transformer.layers.3.ff_norm.weight",
+      "transformer.layers.3.pre_norm.weight",
+      "transformer.layers.3.self_attn.k_norm.weight",
+      "transformer.layers.3.self_attn.q_norm.weight",
+      "transformer.layers.3.to_local_embed.seq.0.bias",
+      "transformer.layers.3.to_local_embed.seq.0.weight",
+      "transformer.layers.3.to_local_embed.seq.2.bias",
+      "transformer.layers.3.to_local_embed.seq.2.weight",
+      "transformer.layers.3.to_scale_shift_gate",
+      "transformer.layers.4.cross_attend_norm.weight",
+      "transformer.layers.4.cross_attn.k_norm.weight",
+      "transformer.layers.4.cross_attn.q_norm.weight",
+      "transformer.layers.4.ff.ff.0.proj.bias",
+      "transformer.layers.4.ff.ff.2.bias",
+      "transformer.layers.4.ff_norm.weight",
+      "transformer.layers.4.pre_norm.weight",
+      "transformer.layers.4.self_attn.k_norm.weight",
+      "transformer.layers.4.self_attn.q_norm.weight",
+      "transformer.layers.4.to_local_embed.seq.0.bias",
+      "transformer.layers.4.to_local_embed.seq.0.weight",
+      "transformer.layers.4.to_local_embed.seq.2.bias",
+      "transformer.layers.4.to_local_embed.seq.2.weight",
+      "transformer.layers.4.to_scale_shift_gate",
+      "transformer.layers.5.cross_attend_norm.weight",
+      "transformer.layers.5.cross_attn.k_norm.weight",
+      "transformer.layers.5.cross_attn.q_norm.weight",
+      "transformer.layers.5.ff.ff.0.proj.bias",
+      "transformer.layers.5.ff.ff.2.bias",
+      "transformer.layers.5.ff_norm.weight",
+      "transformer.layers.5.pre_norm.weight",
+      "transformer.layers.5.self_attn.k_norm.weight",
+      "transformer.layers.5.self_attn.q_norm.weight",
+      "transformer.layers.5.to_local_embed.seq.0.bias",
+      "transformer.layers.5.to_local_embed.seq.0.weight",
+      "transformer.layers.5.to_local_embed.seq.2.bias",
+      "transformer.layers.5.to_local_embed.seq.2.weight",
+      "transformer.layers.5.to_scale_shift_gate",
+      "transformer.layers.6.cross_attend_norm.weight",
+      "transformer.layers.6.cross_attn.k_norm.weight",
+      "transformer.layers.6.cross_attn.q_norm.weight",
+      "transformer.layers.6.ff.ff.0.proj.bias",
+      "transformer.layers.6.ff.ff.2.bias",
+      "transformer.layers.6.ff_norm.weight",
+      "transformer.layers.6.pre_norm.weight",
+      "transformer.layers.6.self_attn.k_norm.weight",
+      "transformer.layers.6.self_attn.q_norm.weight",
+      "transformer.layers.6.to_local_embed.seq.0.bias",
+      "transformer.layers.6.to_local_embed.seq.0.weight",
+      "transformer.layers.6.to_local_embed.seq.2.bias",
+      "transformer.layers.6.to_local_embed.seq.2.weight",
+      "transformer.layers.6.to_scale_shift_gate",
+      "transformer.layers.7.cross_attend_norm.weight",
+      "transformer.layers.7.cross_attn.k_norm.weight",
+      "transformer.layers.7.cross_attn.q_norm.weight",
+      "transformer.layers.7.ff.ff.0.proj.bias",
+      "transformer.layers.7.ff.ff.2.bias",
+      "transformer.layers.7.ff_norm.weight",
+      "transformer.layers.7.pre_norm.weight",
+      "transformer.layers.7.self_attn.k_norm.weight",
+      "transformer.layers.7.self_attn.q_norm.weight",
+      "transformer.layers.7.to_local_embed.seq.0.bias",
+      "transformer.layers.7.to_local_embed.seq.0.weight",
+      "transformer.layers.7.to_local_embed.seq.2.bias",
+      "transformer.layers.7.to_local_embed.seq.2.weight",
+      "transformer.layers.7.to_scale_shift_gate",
+      "transformer.layers.8.cross_attend_norm.weight",
+      "transformer.layers.8.cross_attn.k_norm.weight",
+      "transformer.layers.8.cross_attn.q_norm.weight",
+      "transformer.layers.8.ff.ff.0.proj.bias",
+      "transformer.layers.8.ff.ff.2.bias",
+      "transformer.layers.8.ff_norm.weight",
+      "transformer.layers.8.pre_norm.weight",
+      "transformer.layers.8.self_attn.k_norm.weight",
+      "transformer.layers.8.self_attn.q_norm.weight",
+      "transformer.layers.8.to_local_embed.seq.0.bias",
+      "transformer.layers.8.to_local_embed.seq.0.weight",
+      "transformer.layers.8.to_local_embed.seq.2.bias",
+      "transformer.layers.8.to_local_embed.seq.2.weight",
+      "transformer.layers.8.to_scale_shift_gate",
+      "transformer.layers.9.cross_attend_norm.weight",
+      "transformer.layers.9.cross_attn.k_norm.weight",
+      "transformer.layers.9.cross_attn.q_norm.weight",
+      "transformer.layers.9.ff.ff.0.proj.bias",
+      "transformer.layers.9.ff.ff.2.bias",
+      "transformer.layers.9.ff_norm.weight",
+      "transformer.layers.9.pre_norm.weight",
+      "transformer.layers.9.self_attn.k_norm.weight",
+      "transformer.layers.9.self_attn.q_norm.weight",
+      "transformer.layers.9.to_local_embed.seq.0.bias",
+      "transformer.layers.9.to_local_embed.seq.0.weight",
+      "transformer.layers.9.to_local_embed.seq.2.bias",
+      "transformer.layers.9.to_local_embed.seq.2.weight",
+      "transformer.layers.9.to_scale_shift_gate",
+      "transformer.memory_tokens",
+      "transformer.project_in.weight",
+      "transformer.project_out.weight",
+      "transformer.rotary_pos_emb.inv_freq"
+    ],
+    "support_overrides": [
+      "transformer.layers.0.ff.ff.0.proj.bias",
+      "transformer.layers.0.ff.ff.2.bias",
+      "transformer.layers.1.ff.ff.0.proj.bias",
+      "transformer.layers.1.ff.ff.2.bias",
+      "transformer.layers.10.ff.ff.0.proj.bias",
+      "transformer.layers.10.ff.ff.2.bias",
+      "transformer.layers.11.ff.ff.0.proj.bias",
+      "transformer.layers.11.ff.ff.2.bias",
+      "transformer.layers.12.ff.ff.0.proj.bias",
+      "transformer.layers.12.ff.ff.2.bias",
+      "transformer.layers.13.ff.ff.0.proj.bias",
+      "transformer.layers.13.ff.ff.2.bias",
+      "transformer.layers.14.ff.ff.0.proj.bias",
+      "transformer.layers.14.ff.ff.2.bias",
+      "transformer.layers.15.ff.ff.0.proj.bias",
+      "transformer.layers.15.ff.ff.2.bias",
+      "transformer.layers.16.ff.ff.0.proj.bias",
+      "transformer.layers.16.ff.ff.2.bias",
+      "transformer.layers.17.ff.ff.0.proj.bias",
+      "transformer.layers.17.ff.ff.2.bias",
+      "transformer.layers.18.ff.ff.0.proj.bias",
+      "transformer.layers.18.ff.ff.2.bias",
+      "transformer.layers.19.ff.ff.0.proj.bias",
+      "transformer.layers.19.ff.ff.2.bias",
+      "transformer.layers.2.ff.ff.0.proj.bias",
+      "transformer.layers.2.ff.ff.2.bias",
+      "transformer.layers.20.ff.ff.0.proj.bias",
+      "transformer.layers.20.ff.ff.2.bias",
+      "transformer.layers.21.ff.ff.0.proj.bias",
+      "transformer.layers.21.ff.ff.2.bias",
+      "transformer.layers.22.ff.ff.0.proj.bias",
+      "transformer.layers.22.ff.ff.2.bias",
+      "transformer.layers.23.ff.ff.0.proj.bias",
+      "transformer.layers.23.ff.ff.2.bias",
+      "transformer.layers.3.ff.ff.0.proj.bias",
+      "transformer.layers.3.ff.ff.2.bias",
+      "transformer.layers.4.ff.ff.0.proj.bias",
+      "transformer.layers.4.ff.ff.2.bias",
+      "transformer.layers.5.ff.ff.0.proj.bias",
+      "transformer.layers.5.ff.ff.2.bias",
+      "transformer.layers.6.ff.ff.0.proj.bias",
+      "transformer.layers.6.ff.ff.2.bias",
+      "transformer.layers.7.ff.ff.0.proj.bias",
+      "transformer.layers.7.ff.ff.2.bias",
+      "transformer.layers.8.ff.ff.0.proj.bias",
+      "transformer.layers.8.ff.ff.2.bias",
+      "transformer.layers.9.ff.ff.0.proj.bias",
+      "transformer.layers.9.ff.ff.2.bias"
+    ]
+  },
+  "storage": {
+    "core_code_bits": 2,
+    "core_code_bytes": 339738624,
+    "core_matrix_count": 168,
+    "core_scale_bytes": 84934656,
+    "core_scale_count": 42467328,
+    "core_scale_dtype": "float16",
+    "group_size": 32,
+    "package_envelope_bytes": 650000000,
+    "package_envelope_check": true,
+    "packed_payload_bytes": 613897248,
+    "packed_payload_mib": 585.4580383300781,
+    "padded_core_elements": 0,
+    "payload_file_bytes": 513342833,
+    "payload_sha256": "1e2206181875d74c6a21e51120b3366ca5b9cadd038df47e157ea54d1ce4fa04",
+    "support_native_bytes": 189223968,
+    "within_package_envelope": true
+  }
+}

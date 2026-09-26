@@ -1,0 +1,32 @@
+{
+  "schema": "onus.ternary-quality/v6-trainer-config",
+  "values": {
+    "dataset_dir": "output/sample-expertise-pilot/universal-dataset/latents-12s",
+    "teacher_weights": "/Users/guillaumegaillard/.cache/onus/stable-audio-3-mlx/optimized/mlx/models/mlx/dit_medium_f16.npz",
+    "output_dir": "/Volumes/Extreme SSD/OnUsLoopLab/ternary-quality-v6-20260923/pilot-g64-learned",
+    "group_size": 64,
+    "quantizer_mode": "learned_symmetric",
+    "crop_len": 128,
+    "start_block": 0,
+    "end_block": null,
+    "steps_per_block": 10,
+    "max_blocks": 2,
+    "max_samples": 64,
+    "polish_steps": 0,
+    "polish_learning_rate": 0.000001,
+    "polish_grad_clip": 0.1,
+    "seconds": 12.0,
+    "seed": 20260923,
+    "resume_checkpoint": null,
+    "checkpoint_every_blocks": 1,
+    "checkpoint_every_steps": 5,
+    "resume_step_checkpoint": null,
+    "learning_rate": 0.00001,
+    "learning_rate_end": 0.000001,
+    "optimizer_eps": 0.00000001,
+    "weight_decay": 0.0,
+    "gradient_clip": 1.0,
+    "gradient_accumulation": 4,
+    "sigma_grid": [0.95, 0.75, 0.5, 0.35, 0.25, 0.15, 0.1]
+  }
+}

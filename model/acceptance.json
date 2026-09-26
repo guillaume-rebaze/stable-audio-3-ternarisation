@@ -1,0 +1,37 @@
+{
+  "schema": "onus.ternary-quality/v10-local-acceptance",
+  "status": "accepted_local_personal_study",
+  "artifact": "final-ternary-bonsai-g32-v10",
+  "scope": "Stable Audio 3 Medium DiT Bonsai-style G32 ternarization",
+  "human_review": {
+    "reviewer": "Guillaume Gaillard",
+    "decision": "accepted",
+    "note": "Écoute A/B du rendu final : le résultat entendu paraît très bon; accepté pour l'étude personnelle.",
+    "blind_panel": false,
+    "reviewed_at": "2026-09-25"
+  },
+  "technical": {
+    "format_pass": true,
+    "technical_pass": true,
+    "reload_exact": true,
+    "forward_relative_l2": 0.0,
+    "forward_cosine": 1.0000000000000002,
+    "payload_bytes": 513342833,
+    "payload_envelope_bytes": 650000000
+  },
+  "objective_quality": {
+    "candidate_velocity_pass": false,
+    "release_velocity_pass": false,
+    "velocity_mean_cosine": 0.8769339071586728,
+    "velocity_min_cosine": 0.6461712121963501,
+    "audio_cosine": 0.852055836205657,
+    "audio_technical_pass": true,
+    "interpretation": "Mesure automatique conservée; elle ne remplace pas l'acceptation humaine locale."
+  },
+  "evidence": {
+    "manifest": "manifest.json",
+    "reload_report": "reload_report.json",
+    "audio_canary": "audio_canary/audio_canary.json",
+    "plan": "../../../../docs/TERNARY_QUALITY_RECOVERY_PLAN_V10.md"
+  }
+}

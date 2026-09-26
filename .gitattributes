@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep the compact binary payload and the raw audio canary in Git LFS.
+model/payload.npz filter=lfs diff=lfs merge=lfs -text
+model/audio_canary/*.wav filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,2122 @@
+{
+  "status": "audited",
+  "artifact": null,
+  "records_checkpoint": "/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/full-dit-cascade-g32-112/cascade-block23-g32/pointwise/records_checkpoint.npz",
+  "manifest": null,
+  "scope_digest": "b2c4d2e37d354a1f",
+  "scope_count": 168,
+  "contract": {
+    "records_checkpoint": "/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/full-dit-cascade-g32-112/cascade-block23-g32/pointwise/records_checkpoint.npz",
+    "payload_valid": true,
+    "scope_count": 168,
+    "scope_digest": "b2c4d2e37d354a1f",
+    "linear_bias_count": 48
+  },
+  "dataset_contract": null,
+  "split_role": "debug_train_seen",
+  "split": {
+    "path": null,
+    "role": "debug_train_seen",
+    "verified": false,
+    "sample_count": 239,
+    "parent_count": null,
+    "reason": "no split manifest supplied"
+  },
+  "heldout": false,
+  "teacher": {
+    "samples": 16,
+    "sigmas": [
+      1.0,
+      0.9844802618026733,
+      0.8909031748771667,
+      0.5124973654747009
+    ],
+    "records": [
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.1421962976455688,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.0996617078781128,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9895362854003906,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.0591646432876587,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sigma": 1.0,
+        "output_rms": 1.0604499578475952,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.089412808418274,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sigma": 0.8909031748771667,
+        "output_rms": 1.0780129432678223,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.107552409172058,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.1069273948669434,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 0.9815517663955688,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9183517098426819,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.1645582914352417,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.130286693572998,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.1538279056549072,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9155362844467163,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 0.9619500637054443,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.1038427352905273,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.0499500036239624,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9342095255851746,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.0379912853240967,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.1474970579147339,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.1046932935714722,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9235571622848511,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.1245660781860352,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.1882363557815552,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.1364221572875977,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9097232222557068,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.0326175689697266,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.1294407844543457,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.1367419958114624,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9045429825782776,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.0139273405075073,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.0831595659255981,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.1419953107833862,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9415037035942078,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.1280442476272583,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sigma": 1.0,
+        "output_rms": 0.9097391366958618,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sigma": 0.9844802618026733,
+        "output_rms": 0.9580922722816467,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9868782162666321,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.1861082315444946,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.103661060333252,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.0822423696517944,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 1.3562017679214478,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.443355917930603,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.153613567352295,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.105325698852539,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 1.0001766681671143,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.1852474212646484,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.1118075847625732,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.0960899591445923,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.9533286690711975,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 0.9400165677070618,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.213418960571289,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.1886322498321533,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 0.951317310333252,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.1524182558059692,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "output_rms": 1.0369513034820557,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.0412051677703857,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "output_rms": 1.0402919054031372,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.0883265733718872,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sigma": 1.0,
+        "output_rms": 1.1529629230499268,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sigma": 0.9844802618026733,
+        "output_rms": 1.1246132850646973,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sigma": 0.8909031748771667,
+        "output_rms": 1.0834558010101318,
+        "repeat_relative_error": 0.0
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sigma": 0.5124973654747009,
+        "output_rms": 1.1251510381698608,
+        "repeat_relative_error": 0.0
+      }
+    ],
+    "max_repeat_relative_error": 0.0,
+    "deterministic_pass": true
+  },
+  "velocity": {
+    "samples": 16,
+    "sigmas": [
+      1.0,
+      0.9844802618026733,
+      0.8909031748771667,
+      0.5124973654747009
+    ],
+    "records": [
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.3216332793235779,
+        "cosine": 0.9485623240470886,
+        "teacher_rms": 1.1421962976455688,
+        "student_rms": 1.1482433080673218,
+        "rms_ratio": 1.0052942037582397
+      },
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.34060147404670715,
+        "cosine": 0.9430869221687317,
+        "teacher_rms": 1.0996617078781128,
+        "student_rms": 1.1180509328842163,
+        "rms_ratio": 1.0167226791381836
+      },
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.4866357445716858,
+        "cosine": 0.8765352368354797,
+        "teacher_rms": 0.9895362854003906,
+        "student_rms": 0.9382265210151672,
+        "rms_ratio": 0.9481476545333862
+      },
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.5102476477622986,
+        "cosine": 0.8602800369262695,
+        "teacher_rms": 1.0591646432876587,
+        "student_rms": 0.9332519769668579,
+        "rms_ratio": 0.8811208009719849
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sigma": 1.0,
+        "relative_error": 0.5043673515319824,
+        "cosine": 0.8648864030838013,
+        "teacher_rms": 1.0604499578475952,
+        "student_rms": 0.9692824482917786,
+        "rms_ratio": 0.9140294194221497
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.5088577270507812,
+        "cosine": 0.8621503710746765,
+        "teacher_rms": 1.089412808418274,
+        "student_rms": 0.9907909035682678,
+        "rms_ratio": 0.9094724059104919
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.5421943664550781,
+        "cosine": 0.8428478837013245,
+        "teacher_rms": 1.0780129432678223,
+        "student_rms": 0.9798420071601868,
+        "rms_ratio": 0.9089334607124329
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.4828924536705017,
+        "cosine": 0.8775294423103333,
+        "teacher_rms": 1.107552409172058,
+        "student_rms": 1.0349822044372559,
+        "rms_ratio": 0.9344769716262817
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.3164515793323517,
+        "cosine": 0.9495925903320312,
+        "teacher_rms": 1.1069273948669434,
+        "student_rms": 1.0989714860916138,
+        "rms_ratio": 0.9928126335144043
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.4816884398460388,
+        "cosine": 0.880637526512146,
+        "teacher_rms": 0.9815517663955688,
+        "student_rms": 0.9496581554412842,
+        "rms_ratio": 0.9675069451332092
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.4166370928287506,
+        "cosine": 0.9113708734512329,
+        "teacher_rms": 0.9183517098426819,
+        "student_rms": 0.8963562250137329,
+        "rms_ratio": 0.9760489463806152
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.5462865829467773,
+        "cosine": 0.8376336693763733,
+        "teacher_rms": 1.1645582914352417,
+        "student_rms": 0.966505765914917,
+        "rms_ratio": 0.8299333453178406
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.35352441668510437,
+        "cosine": 0.9370176196098328,
+        "teacher_rms": 1.130286693572998,
+        "student_rms": 1.1208175420761108,
+        "rms_ratio": 0.9916223287582397
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.4357064962387085,
+        "cosine": 0.9000922441482544,
+        "teacher_rms": 1.1538279056549072,
+        "student_rms": 1.0414201021194458,
+        "rms_ratio": 0.9025783538818359
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.41692912578582764,
+        "cosine": 0.9119194746017456,
+        "teacher_rms": 0.9155362844467163,
+        "student_rms": 0.9023407101631165,
+        "rms_ratio": 0.9855870604515076
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.5167579054832458,
+        "cosine": 0.8561915755271912,
+        "teacher_rms": 0.9619500637054443,
+        "student_rms": 0.8333597183227539,
+        "rms_ratio": 0.8663232922554016
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.3024226129055023,
+        "cosine": 0.9543184638023376,
+        "teacher_rms": 1.1038427352905273,
+        "student_rms": 1.1049904823303223,
+        "rms_ratio": 1.001039743423462
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.41286978125572205,
+        "cosine": 0.915788471698761,
+        "teacher_rms": 1.0499500036239624,
+        "student_rms": 1.0618562698364258,
+        "rms_ratio": 1.011339783668518
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.5675914287567139,
+        "cosine": 0.8285914659500122,
+        "teacher_rms": 0.9342095255851746,
+        "student_rms": 0.8613336086273193,
+        "rms_ratio": 0.9219918847084045
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.5686410069465637,
+        "cosine": 0.8226792812347412,
+        "teacher_rms": 1.0379912853240967,
+        "student_rms": 0.8668100237846375,
+        "rms_ratio": 0.835084080696106
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.33971574902534485,
+        "cosine": 0.9409857988357544,
+        "teacher_rms": 1.1474970579147339,
+        "student_rms": 1.1134496927261353,
+        "rms_ratio": 0.9703290462493896
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.36640405654907227,
+        "cosine": 0.9320663213729858,
+        "teacher_rms": 1.1046932935714722,
+        "student_rms": 1.0901492834091187,
+        "rms_ratio": 0.9868343472480774
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.5024611353874207,
+        "cosine": 0.8677982091903687,
+        "teacher_rms": 0.9235571622848511,
+        "student_rms": 0.8702086210250854,
+        "rms_ratio": 0.9422358274459839
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.5203490257263184,
+        "cosine": 0.8550158739089966,
+        "teacher_rms": 1.1245660781860352,
+        "student_rms": 1.0094332695007324,
+        "rms_ratio": 0.8976202607154846
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.32075780630111694,
+        "cosine": 0.9477760195732117,
+        "teacher_rms": 1.1882363557815552,
+        "student_rms": 1.1667382717132568,
+        "rms_ratio": 0.9819075465202332
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.3813069760799408,
+        "cosine": 0.9263352751731873,
+        "teacher_rms": 1.1364221572875977,
+        "student_rms": 1.119863748550415,
+        "rms_ratio": 0.9854293465614319
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.5120299458503723,
+        "cosine": 0.8651731014251709,
+        "teacher_rms": 0.9097232222557068,
+        "student_rms": 0.8811668157577515,
+        "rms_ratio": 0.9686098098754883
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.557260274887085,
+        "cosine": 0.8305913805961609,
+        "teacher_rms": 1.0326175689697266,
+        "student_rms": 0.8788676857948303,
+        "rms_ratio": 0.8511066436767578
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.38014763593673706,
+        "cosine": 0.9274516701698303,
+        "teacher_rms": 1.1294407844543457,
+        "student_rms": 1.1247562170028687,
+        "rms_ratio": 0.9958522915840149
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.31871289014816284,
+        "cosine": 0.9479394555091858,
+        "teacher_rms": 1.1367419958114624,
+        "student_rms": 1.0922529697418213,
+        "rms_ratio": 0.9608626961708069
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.4671792984008789,
+        "cosine": 0.8872032761573792,
+        "teacher_rms": 0.9045429825782776,
+        "student_rms": 0.8688980340957642,
+        "rms_ratio": 0.9605934023857117
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.41903671622276306,
+        "cosine": 0.9090515375137329,
+        "teacher_rms": 1.0139273405075073,
+        "student_rms": 0.8767484426498413,
+        "rms_ratio": 0.8647053837776184
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.35096392035484314,
+        "cosine": 0.9383687376976013,
+        "teacher_rms": 1.0831595659255981,
+        "student_rms": 1.0823923349380493,
+        "rms_ratio": 0.9992916584014893
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.3438359498977661,
+        "cosine": 0.9421314001083374,
+        "teacher_rms": 1.1419953107833862,
+        "student_rms": 1.163141131401062,
+        "rms_ratio": 1.0185165405273438
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.6232902407646179,
+        "cosine": 0.7903337478637695,
+        "teacher_rms": 0.9415037035942078,
+        "student_rms": 0.8519370555877686,
+        "rms_ratio": 0.904868483543396
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.5831098556518555,
+        "cosine": 0.8135525584220886,
+        "teacher_rms": 1.1280442476272583,
+        "student_rms": 0.9666975736618042,
+        "rms_ratio": 0.8569678068161011
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sigma": 1.0,
+        "relative_error": 0.6024070978164673,
+        "cosine": 0.8127525448799133,
+        "teacher_rms": 0.9097391366958618,
+        "student_rms": 0.8787376284599304,
+        "rms_ratio": 0.9659226536750793
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.6223818063735962,
+        "cosine": 0.7905168533325195,
+        "teacher_rms": 0.9580922722816467,
+        "student_rms": 0.8635416030883789,
+        "rms_ratio": 0.9013136029243469
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.6357771754264832,
+        "cosine": 0.7887735366821289,
+        "teacher_rms": 0.9868782162666321,
+        "student_rms": 0.9387009143829346,
+        "rms_ratio": 0.9511821269989014
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.5019658207893372,
+        "cosine": 0.8650538325309753,
+        "teacher_rms": 1.1861082315444946,
+        "student_rms": 1.0461663007736206,
+        "rms_ratio": 0.8820158839225769
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.35587772727012634,
+        "cosine": 0.9387627243995667,
+        "teacher_rms": 1.103661060333252,
+        "student_rms": 1.134321689605713,
+        "rms_ratio": 1.0277808904647827
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.32700711488723755,
+        "cosine": 0.9462338089942932,
+        "teacher_rms": 1.0822423696517944,
+        "student_rms": 1.0758682489395142,
+        "rms_ratio": 0.9941102862358093
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.6020218133926392,
+        "cosine": 0.8004268407821655,
+        "teacher_rms": 1.3562017679214478,
+        "student_rms": 1.1612138748168945,
+        "rms_ratio": 0.8562250137329102
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.42838579416275024,
+        "cosine": 0.9043594598770142,
+        "teacher_rms": 1.443355917930603,
+        "student_rms": 1.3589391708374023,
+        "rms_ratio": 0.9415135383605957
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.3368404507637024,
+        "cosine": 0.9418067932128906,
+        "teacher_rms": 1.153613567352295,
+        "student_rms": 1.1112600564956665,
+        "rms_ratio": 0.9632862210273743
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.5265171527862549,
+        "cosine": 0.8536655902862549,
+        "teacher_rms": 1.105325698852539,
+        "student_rms": 1.0289483070373535,
+        "rms_ratio": 0.9309005737304688
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.6980706453323364,
+        "cosine": 0.7279228568077087,
+        "teacher_rms": 1.0001766681671143,
+        "student_rms": 0.8591256141662598,
+        "rms_ratio": 0.8589738607406616
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.6105560064315796,
+        "cosine": 0.7934665679931641,
+        "teacher_rms": 1.1852474212646484,
+        "student_rms": 0.9981270432472229,
+        "rms_ratio": 0.8421254754066467
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.42133527994155884,
+        "cosine": 0.9091995358467102,
+        "teacher_rms": 1.1118075847625732,
+        "student_rms": 1.0826284885406494,
+        "rms_ratio": 0.9737552404403687
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.39475199580192566,
+        "cosine": 0.9201314449310303,
+        "teacher_rms": 1.0960899591445923,
+        "student_rms": 1.0630310773849487,
+        "rms_ratio": 0.9698392748832703
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.4587511420249939,
+        "cosine": 0.8897593021392822,
+        "teacher_rms": 0.9533286690711975,
+        "student_rms": 0.8921716809272766,
+        "rms_ratio": 0.9358490109443665
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.45915350317955017,
+        "cosine": 0.8893875479698181,
+        "teacher_rms": 0.9400165677070618,
+        "student_rms": 0.8762773871421814,
+        "rms_ratio": 0.9321935772895813
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.3221260607242584,
+        "cosine": 0.9475622177124023,
+        "teacher_rms": 1.213418960571289,
+        "student_rms": 1.1989197731018066,
+        "rms_ratio": 0.9880509376525879
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.28346699476242065,
+        "cosine": 0.959179699420929,
+        "teacher_rms": 1.1886322498321533,
+        "student_rms": 1.1632626056671143,
+        "rms_ratio": 0.9786564111709595
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.5505732297897339,
+        "cosine": 0.8449172377586365,
+        "teacher_rms": 0.951317310333252,
+        "student_rms": 0.9278795719146729,
+        "rms_ratio": 0.9753628373146057
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.5429344177246094,
+        "cosine": 0.8425319194793701,
+        "teacher_rms": 1.1524182558059692,
+        "student_rms": 1.0494310855865479,
+        "rms_ratio": 0.9106338620185852
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 1.0,
+        "relative_error": 0.4448850154876709,
+        "cosine": 0.9014278054237366,
+        "teacher_rms": 1.0369513034820557,
+        "student_rms": 1.040966510772705,
+        "rms_ratio": 1.0038721561431885
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.5821947455406189,
+        "cosine": 0.8250675201416016,
+        "teacher_rms": 1.0412051677703857,
+        "student_rms": 1.0051559209823608,
+        "rms_ratio": 0.9653773903846741
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.4769408404827118,
+        "cosine": 0.8804667592048645,
+        "teacher_rms": 1.0402919054031372,
+        "student_rms": 0.9699392318725586,
+        "rms_ratio": 0.9323721528053284
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.46370187401771545,
+        "cosine": 0.8860470652580261,
+        "teacher_rms": 1.0883265733718872,
+        "student_rms": 0.9751186370849609,
+        "rms_ratio": 0.8959798216819763
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sigma": 1.0,
+        "relative_error": 0.48707345128059387,
+        "cosine": 0.8756871819496155,
+        "teacher_rms": 1.1529629230499268,
+        "student_rms": 1.0831788778305054,
+        "rms_ratio": 0.9394741654396057
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sigma": 0.9844802618026733,
+        "relative_error": 0.8087087273597717,
+        "cosine": 0.6461712121963501,
+        "teacher_rms": 1.1246132850646973,
+        "student_rms": 1.0275075435638428,
+        "rms_ratio": 0.913654088973999
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sigma": 0.8909031748771667,
+        "relative_error": 0.6539831161499023,
+        "cosine": 0.7793363332748413,
+        "teacher_rms": 1.0834558010101318,
+        "student_rms": 1.0472432374954224,
+        "rms_ratio": 0.9665768146514893
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sigma": 0.5124973654747009,
+        "relative_error": 0.5204325318336487,
+        "cosine": 0.8596696257591248,
+        "teacher_rms": 1.1251510381698608,
+        "student_rms": 1.0791064500808716,
+        "rms_ratio": 0.959077000617981
+      }
+    ],
+    "by_sigma": {
+      "1.0": {
+        "count": 16,
+        "mean_cosine": 0.9210099019110203,
+        "min_cosine": 0.8127525448799133,
+        "mean_relative_error": 0.38503308966755867,
+        "mean_rms_ratio": 0.9821450710296631
+      },
+      "0.9844802618026733": {
+        "count": 16,
+        "mean_cosine": 0.8869496323168278,
+        "min_cosine": 0.6461712121963501,
+        "mean_relative_error": 0.44593827053904533,
+        "mean_rms_ratio": 0.9633196704089642
+      },
+      "0.8909031748771667": {
+        "count": 16,
+        "mean_cosine": 0.8433360084891319,
+        "min_cosine": 0.7279228568077087,
+        "mean_relative_error": 0.5381916463375092,
+        "mean_rms_ratio": 0.9370973967015743
+      },
+      "0.5124973654747009": {
+        "count": 16,
+        "mean_cosine": 0.8564400859177113,
+        "min_cosine": 0.7934665679931641,
+        "mean_relative_error": 0.5144819635897875,
+        "mean_rms_ratio": 0.88630485907197
+      }
+    },
+    "mean_cosine": 0.8769339071586728,
+    "min_cosine": 0.6461712121963501,
+    "mean_relative_error": 0.47091124253347516,
+    "candidate_velocity_pass": false,
+    "release_velocity_pass": false
+  },
+  "trajectory": {
+    "samples": 16,
+    "steps": 4,
+    "records": [
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 0,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 0.9999999403953552,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.3436289429664612,
+        "velocity_cosine": 0.9412729144096375,
+        "teacher_on_student_velocity_relative_error": 0.3436289429664612,
+        "teacher_on_student_velocity_cosine": 0.9412729144096375
+      },
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 0,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.005976109765470028,
+        "state_cosine": 0.9999821782112122,
+        "state_rms_ratio": 0.9999340176582336,
+        "velocity_relative_error": 0.3513393998146057,
+        "velocity_cosine": 0.942534863948822,
+        "teacher_on_student_velocity_relative_error": 0.3500809669494629,
+        "teacher_on_student_velocity_cosine": 0.9431800246238708
+      },
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 0,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.047058384865522385,
+        "state_cosine": 0.9988925457000732,
+        "state_rms_ratio": 0.9997408390045166,
+        "velocity_relative_error": 0.3817715048789978,
+        "velocity_cosine": 0.9279029369354248,
+        "teacher_on_student_velocity_relative_error": 0.3256641626358032,
+        "teacher_on_student_velocity_cosine": 0.9469892382621765
+      },
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 0,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.2908320724964142,
+        "state_cosine": 0.9575636982917786,
+        "state_rms_ratio": 0.9964431524276733,
+        "velocity_relative_error": 0.4808655083179474,
+        "velocity_cosine": 0.8783951997756958,
+        "teacher_on_student_velocity_relative_error": 0.34285634756088257,
+        "teacher_on_student_velocity_cosine": 0.9394665956497192
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sample_index": 1,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 0.9999998807907104,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.5271397233009338,
+        "velocity_cosine": 0.8522171378135681,
+        "teacher_on_student_velocity_relative_error": 0.5271397233009338,
+        "teacher_on_student_velocity_cosine": 0.8522171378135681
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sample_index": 1,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.009221410378813744,
+        "state_cosine": 0.9999574422836304,
+        "state_rms_ratio": 0.9999940395355225,
+        "velocity_relative_error": 0.6003366708755493,
+        "velocity_cosine": 0.8073131442070007,
+        "teacher_on_student_velocity_relative_error": 0.5954961776733398,
+        "teacher_on_student_velocity_cosine": 0.8114383816719055
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sample_index": 1,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.08159796893596649,
+        "state_cosine": 0.9966655969619751,
+        "state_rms_ratio": 0.9974728226661682,
+        "velocity_relative_error": 0.6647622585296631,
+        "velocity_cosine": 0.7607647180557251,
+        "teacher_on_student_velocity_relative_error": 0.5703281760215759,
+        "teacher_on_student_velocity_cosine": 0.8249636888504028
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sample_index": 1,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.4917120039463043,
+        "state_cosine": 0.8742587566375732,
+        "state_rms_ratio": 0.9524193406105042,
+        "velocity_relative_error": 0.7645761370658875,
+        "velocity_cosine": 0.6607630252838135,
+        "teacher_on_student_velocity_relative_error": 0.5146703124046326,
+        "teacher_on_student_velocity_cosine": 0.8590885400772095
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 2,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.36553147435188293,
+        "velocity_cosine": 0.9344454407691956,
+        "teacher_on_student_velocity_relative_error": 0.36553147435188293,
+        "teacher_on_student_velocity_cosine": 0.9344454407691956
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 2,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.0059824176132678986,
+        "state_cosine": 0.9999821186065674,
+        "state_rms_ratio": 0.9999365210533142,
+        "velocity_relative_error": 0.400015264749527,
+        "velocity_cosine": 0.9172007441520691,
+        "teacher_on_student_velocity_relative_error": 0.39732298254966736,
+        "teacher_on_student_velocity_cosine": 0.9185048341751099
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 2,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.057196058332920074,
+        "state_cosine": 0.9983629584312439,
+        "state_rms_ratio": 0.998249888420105,
+        "velocity_relative_error": 0.4366959035396576,
+        "velocity_cosine": 0.8996840119361877,
+        "teacher_on_student_velocity_relative_error": 0.3615901470184326,
+        "teacher_on_student_velocity_cosine": 0.9329848289489746
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 2,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.3511284589767456,
+        "state_cosine": 0.9365277886390686,
+        "state_rms_ratio": 0.9559068083763123,
+        "velocity_relative_error": 0.539899468421936,
+        "velocity_cosine": 0.8418636322021484,
+        "teacher_on_student_velocity_relative_error": 0.4143832325935364,
+        "teacher_on_student_velocity_cosine": 0.910942554473877
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 3,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 0.9999999403953552,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.38949093222618103,
+        "velocity_cosine": 0.9225834012031555,
+        "teacher_on_student_velocity_relative_error": 0.38949093222618103,
+        "teacher_on_student_velocity_cosine": 0.9225834012031555
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 3,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.006986438762396574,
+        "state_cosine": 0.9999756217002869,
+        "state_rms_ratio": 0.9999789595603943,
+        "velocity_relative_error": 0.3320613503456116,
+        "velocity_cosine": 0.9437784552574158,
+        "teacher_on_student_velocity_relative_error": 0.3264078199863434,
+        "teacher_on_student_velocity_cosine": 0.9458499550819397
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 3,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.048890188336372375,
+        "state_cosine": 0.9988042116165161,
+        "state_rms_ratio": 0.9985851049423218,
+        "velocity_relative_error": 0.3536296784877777,
+        "velocity_cosine": 0.9363798499107361,
+        "teacher_on_student_velocity_relative_error": 0.29579031467437744,
+        "teacher_on_student_velocity_cosine": 0.9559592604637146
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 3,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.2767004072666168,
+        "state_cosine": 0.9611772298812866,
+        "state_rms_ratio": 0.9817882776260376,
+        "velocity_relative_error": 0.45020467042922974,
+        "velocity_cosine": 0.8929430246353149,
+        "teacher_on_student_velocity_relative_error": 0.3287099301815033,
+        "teacher_on_student_velocity_cosine": 0.9446426033973694
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 4,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.4011843502521515,
+        "velocity_cosine": 0.9167664647102356,
+        "teacher_on_student_velocity_relative_error": 0.4011843502521515,
+        "teacher_on_student_velocity_cosine": 0.9167664647102356
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 4,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.006982431747019291,
+        "state_cosine": 0.9999755620956421,
+        "state_rms_ratio": 0.9999191164970398,
+        "velocity_relative_error": 0.34354299306869507,
+        "velocity_cosine": 0.9398518204689026,
+        "teacher_on_student_velocity_relative_error": 0.3421967625617981,
+        "teacher_on_student_velocity_cosine": 0.9404428601264954
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 4,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.049572184681892395,
+        "state_cosine": 0.998770534992218,
+        "state_rms_ratio": 0.9988698959350586,
+        "velocity_relative_error": 0.36331865191459656,
+        "velocity_cosine": 0.9318604469299316,
+        "teacher_on_student_velocity_relative_error": 0.33523860573768616,
+        "teacher_on_student_velocity_cosine": 0.9436239004135132
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 4,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.2864968776702881,
+        "state_cosine": 0.9585022330284119,
+        "state_rms_ratio": 0.9869102835655212,
+        "velocity_relative_error": 0.4346986711025238,
+        "velocity_cosine": 0.9007245302200317,
+        "teacher_on_student_velocity_relative_error": 0.3544217646121979,
+        "teacher_on_student_velocity_cosine": 0.9352758526802063
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 5,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0000001192092896,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.33499860763549805,
+        "velocity_cosine": 0.9422204494476318,
+        "teacher_on_student_velocity_relative_error": 0.33499860763549805,
+        "teacher_on_student_velocity_cosine": 0.9422204494476318
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 5,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.005937861744314432,
+        "state_cosine": 0.9999823570251465,
+        "state_rms_ratio": 0.9999933242797852,
+        "velocity_relative_error": 0.3436148762702942,
+        "velocity_cosine": 0.9391126036643982,
+        "teacher_on_student_velocity_relative_error": 0.3377206027507782,
+        "teacher_on_student_velocity_cosine": 0.9412577152252197
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 5,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.047332603484392166,
+        "state_cosine": 0.9988794922828674,
+        "state_rms_ratio": 0.9981319904327393,
+        "velocity_relative_error": 0.3672754764556885,
+        "velocity_cosine": 0.9301314949989319,
+        "teacher_on_student_velocity_relative_error": 0.3540748357772827,
+        "teacher_on_student_velocity_cosine": 0.9368664622306824
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 5,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.27921798825263977,
+        "state_cosine": 0.9602293968200684,
+        "state_rms_ratio": 0.958461344242096,
+        "velocity_relative_error": 0.4413650333881378,
+        "velocity_cosine": 0.8977994918823242,
+        "teacher_on_student_velocity_relative_error": 0.3771458566188812,
+        "teacher_on_student_velocity_cosine": 0.9263648986816406
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 6,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0000001192092896,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.34472018480300903,
+        "velocity_cosine": 0.939482569694519,
+        "teacher_on_student_velocity_relative_error": 0.34472018480300903,
+        "teacher_on_student_velocity_cosine": 0.939482569694519
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 6,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.006035109516233206,
+        "state_cosine": 0.9999818205833435,
+        "state_rms_ratio": 1.000020146369934,
+        "velocity_relative_error": 0.3687375783920288,
+        "velocity_cosine": 0.9310263395309448,
+        "teacher_on_student_velocity_relative_error": 0.3691686689853668,
+        "teacher_on_student_velocity_cosine": 0.9311091899871826
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 6,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.051794059574604034,
+        "state_cosine": 0.998657763004303,
+        "state_rms_ratio": 0.9985849857330322,
+        "velocity_relative_error": 0.364400714635849,
+        "velocity_cosine": 0.9322448372840881,
+        "teacher_on_student_velocity_relative_error": 0.3222307562828064,
+        "teacher_on_student_velocity_cosine": 0.9471873044967651
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 6,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.28533005714416504,
+        "state_cosine": 0.9590213894844055,
+        "state_rms_ratio": 0.9927133321762085,
+        "velocity_relative_error": 0.4862816333770752,
+        "velocity_cosine": 0.8745714426040649,
+        "teacher_on_student_velocity_relative_error": 0.3613704442977905,
+        "teacher_on_student_velocity_cosine": 0.9324295520782471
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 7,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0000001192092896,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.3237229883670807,
+        "velocity_cosine": 0.9471426010131836,
+        "teacher_on_student_velocity_relative_error": 0.3237229883670807,
+        "teacher_on_student_velocity_cosine": 0.9471426010131836
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 7,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.0056491452269256115,
+        "state_cosine": 0.9999840259552002,
+        "state_rms_ratio": 1.000002145767212,
+        "velocity_relative_error": 0.36128726601600647,
+        "velocity_cosine": 0.9336590766906738,
+        "teacher_on_student_velocity_relative_error": 0.3627086281776428,
+        "teacher_on_student_velocity_cosine": 0.9332563877105713
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 7,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.050910864025354385,
+        "state_cosine": 0.9987033009529114,
+        "state_rms_ratio": 0.9984708428382874,
+        "velocity_relative_error": 0.36286333203315735,
+        "velocity_cosine": 0.9324047565460205,
+        "teacher_on_student_velocity_relative_error": 0.3353821635246277,
+        "teacher_on_student_velocity_cosine": 0.9433256983757019
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 7,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.2816671133041382,
+        "state_cosine": 0.9598256945610046,
+        "state_rms_ratio": 0.9843505024909973,
+        "velocity_relative_error": 0.4515651762485504,
+        "velocity_cosine": 0.892454206943512,
+        "teacher_on_student_velocity_relative_error": 0.36066776514053345,
+        "teacher_on_student_velocity_cosine": 0.9327616691589355
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 8,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.2985031008720398,
+        "velocity_cosine": 0.9552720189094543,
+        "teacher_on_student_velocity_relative_error": 0.2985031008720398,
+        "teacher_on_student_velocity_cosine": 0.9552720189094543
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 8,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.005484189838171005,
+        "state_cosine": 0.9999850988388062,
+        "state_rms_ratio": 0.9999932646751404,
+        "velocity_relative_error": 0.37945660948753357,
+        "velocity_cosine": 0.9262040257453918,
+        "teacher_on_student_velocity_relative_error": 0.3755263090133667,
+        "teacher_on_student_velocity_cosine": 0.9280882477760315
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 8,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.051278308033943176,
+        "state_cosine": 0.9986844658851624,
+        "state_rms_ratio": 0.9985051155090332,
+        "velocity_relative_error": 0.42845842242240906,
+        "velocity_cosine": 0.9062679409980774,
+        "teacher_on_student_velocity_relative_error": 0.3902738392353058,
+        "teacher_on_student_velocity_cosine": 0.9243030548095703
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 8,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.31687691807746887,
+        "state_cosine": 0.948760986328125,
+        "state_rms_ratio": 0.9723871350288391,
+        "velocity_relative_error": 0.5348893404006958,
+        "velocity_cosine": 0.8466619849205017,
+        "teacher_on_student_velocity_relative_error": 0.38092243671417236,
+        "teacher_on_student_velocity_cosine": 0.9249145984649658
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sample_index": 9,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 0.9999999403953552,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.6458958387374878,
+        "velocity_cosine": 0.7708536386489868,
+        "teacher_on_student_velocity_relative_error": 0.6458958387374878,
+        "teacher_on_student_velocity_cosine": 0.7708536386489868
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sample_index": 9,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.01020507887005806,
+        "state_cosine": 0.9999479651451111,
+        "state_rms_ratio": 0.9999790787696838,
+        "velocity_relative_error": 0.6993257999420166,
+        "velocity_cosine": 0.7248284220695496,
+        "teacher_on_student_velocity_relative_error": 0.6982852220535278,
+        "teacher_on_student_velocity_cosine": 0.7251253724098206
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sample_index": 9,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.08449281752109528,
+        "state_cosine": 0.9964243769645691,
+        "state_rms_ratio": 0.9970429539680481,
+        "velocity_relative_error": 0.7691698670387268,
+        "velocity_cosine": 0.6596316695213318,
+        "teacher_on_student_velocity_relative_error": 0.774908721446991,
+        "teacher_on_student_velocity_cosine": 0.6724344491958618
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sample_index": 9,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.5281346440315247,
+        "state_cosine": 0.8552488684654236,
+        "state_rms_ratio": 0.9571166038513184,
+        "velocity_relative_error": 0.9072011709213257,
+        "velocity_cosine": 0.4926295280456543,
+        "teacher_on_student_velocity_relative_error": 0.601078987121582,
+        "teacher_on_student_velocity_cosine": 0.8075575232505798
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 10,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0000001192092896,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.3813258409500122,
+        "velocity_cosine": 0.9312312602996826,
+        "teacher_on_student_velocity_relative_error": 0.3813258409500122,
+        "teacher_on_student_velocity_cosine": 0.9312312602996826
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 10,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.006219878792762756,
+        "state_cosine": 0.999980628490448,
+        "state_rms_ratio": 0.9999890923500061,
+        "velocity_relative_error": 0.4376054108142853,
+        "velocity_cosine": 0.9069350957870483,
+        "teacher_on_student_velocity_relative_error": 0.4348469078540802,
+        "teacher_on_student_velocity_cosine": 0.9078332185745239
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 10,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.053102411329746246,
+        "state_cosine": 0.998589277267456,
+        "state_rms_ratio": 0.9991458654403687,
+        "velocity_relative_error": 0.5024487376213074,
+        "velocity_cosine": 0.8827499151229858,
+        "teacher_on_student_velocity_relative_error": 0.3646281659603119,
+        "teacher_on_student_velocity_cosine": 0.9366839528083801
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 10,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.3681386113166809,
+        "state_cosine": 0.934114933013916,
+        "state_rms_ratio": 1.0240968465805054,
+        "velocity_relative_error": 0.6279080510139465,
+        "velocity_cosine": 0.7963677644729614,
+        "teacher_on_student_velocity_relative_error": 0.3609244227409363,
+        "teacher_on_student_velocity_cosine": 0.9326290488243103
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 11,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.3463859558105469,
+        "velocity_cosine": 0.9390360713005066,
+        "teacher_on_student_velocity_relative_error": 0.3463859558105469,
+        "teacher_on_student_velocity_cosine": 0.9390360713005066
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 11,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.006052087061107159,
+        "state_cosine": 0.9999816417694092,
+        "state_rms_ratio": 0.999937891960144,
+        "velocity_relative_error": 0.33720752596855164,
+        "velocity_cosine": 0.9445934891700745,
+        "teacher_on_student_velocity_relative_error": 0.3316565454006195,
+        "teacher_on_student_velocity_cosine": 0.947091817855835
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 11,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.04647906497120857,
+        "state_cosine": 0.9989193081855774,
+        "state_rms_ratio": 0.9992035627365112,
+        "velocity_relative_error": 0.3410288691520691,
+        "velocity_cosine": 0.9415498375892639,
+        "teacher_on_student_velocity_relative_error": 0.3094213008880615,
+        "teacher_on_student_velocity_cosine": 0.9521220326423645
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 11,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.2606187164783478,
+        "state_cosine": 0.9656953811645508,
+        "state_rms_ratio": 0.9878256916999817,
+        "velocity_relative_error": 0.4373944401741028,
+        "velocity_cosine": 0.8992979526519775,
+        "teacher_on_student_velocity_relative_error": 0.34837761521339417,
+        "teacher_on_student_velocity_cosine": 0.9378840327262878
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 12,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 0.9999999403953552,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.4189697802066803,
+        "velocity_cosine": 0.9097283482551575,
+        "teacher_on_student_velocity_relative_error": 0.4189697802066803,
+        "teacher_on_student_velocity_cosine": 0.9097283482551575
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 12,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.0072693247348070145,
+        "state_cosine": 0.9999735951423645,
+        "state_rms_ratio": 0.9998983144760132,
+        "velocity_relative_error": 0.4709876477718353,
+        "velocity_cosine": 0.8838986754417419,
+        "teacher_on_student_velocity_relative_error": 0.4633791446685791,
+        "teacher_on_student_velocity_cosine": 0.8881472945213318
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 12,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.06406717002391815,
+        "state_cosine": 0.9979457259178162,
+        "state_rms_ratio": 0.9976641535758972,
+        "velocity_relative_error": 0.468866229057312,
+        "velocity_cosine": 0.8848762512207031,
+        "teacher_on_student_velocity_relative_error": 0.4217497408390045,
+        "teacher_on_student_velocity_cosine": 0.9088857173919678
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 12,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.35296931862831116,
+        "state_cosine": 0.9359585642814636,
+        "state_rms_ratio": 0.9605700373649597,
+        "velocity_relative_error": 0.578657329082489,
+        "velocity_cosine": 0.8166120052337646,
+        "teacher_on_student_velocity_relative_error": 0.4262949824333191,
+        "teacher_on_student_velocity_cosine": 0.9053131341934204
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 13,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.3061305582523346,
+        "velocity_cosine": 0.9522990584373474,
+        "teacher_on_student_velocity_relative_error": 0.3061305582523346,
+        "teacher_on_student_velocity_cosine": 0.9522990584373474
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 13,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.00601147161796689,
+        "state_cosine": 0.9999819993972778,
+        "state_rms_ratio": 1.00002121925354,
+        "velocity_relative_error": 0.30627596378326416,
+        "velocity_cosine": 0.9533936381340027,
+        "teacher_on_student_velocity_relative_error": 0.30526626110076904,
+        "teacher_on_student_velocity_cosine": 0.9537764191627502
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 13,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.04507387429475784,
+        "state_cosine": 0.9989840984344482,
+        "state_rms_ratio": 1.000003457069397,
+        "velocity_relative_error": 0.3831808269023895,
+        "velocity_cosine": 0.9246642589569092,
+        "teacher_on_student_velocity_relative_error": 0.3046327233314514,
+        "teacher_on_student_velocity_cosine": 0.9529287815093994
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 13,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.3084353506565094,
+        "state_cosine": 0.9520402550697327,
+        "state_rms_ratio": 0.9909390211105347,
+        "velocity_relative_error": 0.4818122982978821,
+        "velocity_cosine": 0.876685619354248,
+        "teacher_on_student_velocity_relative_error": 0.3338823616504669,
+        "teacher_on_student_velocity_cosine": 0.9427782893180847
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 14,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.41414573788642883,
+        "velocity_cosine": 0.9151369333267212,
+        "teacher_on_student_velocity_relative_error": 0.41414573788642883,
+        "teacher_on_student_velocity_cosine": 0.9151369333267212
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 14,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.006810185499489307,
+        "state_cosine": 0.9999769330024719,
+        "state_rms_ratio": 1.000043511390686,
+        "velocity_relative_error": 0.446925550699234,
+        "velocity_cosine": 0.8990971446037292,
+        "teacher_on_student_velocity_relative_error": 0.43637189269065857,
+        "teacher_on_student_velocity_cosine": 0.9039725065231323
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 14,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.055187568068504333,
+        "state_cosine": 0.9984760880470276,
+        "state_rms_ratio": 0.9987814426422119,
+        "velocity_relative_error": 0.43878284096717834,
+        "velocity_cosine": 0.9018407464027405,
+        "teacher_on_student_velocity_relative_error": 0.3502478301525116,
+        "teacher_on_student_velocity_cosine": 0.9374973177909851
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 14,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.32874637842178345,
+        "state_cosine": 0.9452359080314636,
+        "state_rms_ratio": 0.9845422506332397,
+        "velocity_relative_error": 0.5624691843986511,
+        "velocity_cosine": 0.829364001750946,
+        "teacher_on_student_velocity_relative_error": 0.367308646440506,
+        "teacher_on_student_velocity_cosine": 0.9303354024887085
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sample_index": 15,
+        "step": 0,
+        "sigma": 1.0,
+        "terminal": false,
+        "state_relative_error": 0.0,
+        "state_cosine": 1.0,
+        "state_rms_ratio": 1.0,
+        "velocity_relative_error": 0.6114181876182556,
+        "velocity_cosine": 0.80122309923172,
+        "teacher_on_student_velocity_relative_error": 0.6114181876182556,
+        "teacher_on_student_velocity_cosine": 0.80122309923172
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sample_index": 15,
+        "step": 1,
+        "sigma": 0.9844802618026733,
+        "terminal": false,
+        "state_relative_error": 0.011855251155793667,
+        "state_cosine": 0.9999297857284546,
+        "state_rms_ratio": 0.9999762177467346,
+        "velocity_relative_error": 0.6452057361602783,
+        "velocity_cosine": 0.7802103757858276,
+        "teacher_on_student_velocity_relative_error": 0.592617928981781,
+        "teacher_on_student_velocity_cosine": 0.8177369832992554
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sample_index": 15,
+        "step": 2,
+        "sigma": 0.8909031748771667,
+        "terminal": false,
+        "state_relative_error": 0.08699430525302887,
+        "state_cosine": 0.9962091445922852,
+        "state_rms_ratio": 0.9971303939819336,
+        "velocity_relative_error": 0.6855964660644531,
+        "velocity_cosine": 0.7477425336837769,
+        "teacher_on_student_velocity_relative_error": 0.5549353361129761,
+        "teacher_on_student_velocity_cosine": 0.8390706181526184
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sample_index": 15,
+        "step": 3,
+        "sigma": 0.5124973654747009,
+        "terminal": false,
+        "state_relative_error": 0.4732564389705658,
+        "state_cosine": 0.8836527466773987,
+        "state_rms_ratio": 0.9530340433120728,
+        "velocity_relative_error": 0.7625473737716675,
+        "velocity_cosine": 0.6745958924293518,
+        "teacher_on_student_velocity_relative_error": 0.498426228761673,
+        "teacher_on_student_velocity_cosine": 0.8712236285209656
+      }
+    ],
+    "terminal_records": [
+      {
+        "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 0,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.44390806555747986,
+        "state_cosine": 0.9011625647544861,
+        "state_rms_ratio": 0.9968099594116211
+      },
+      {
+        "prompt": "classical piece, acoustic grand piano, concert hall acoustics, dynamic expression, emotive melody",
+        "sample_index": 1,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.7558964490890503,
+        "state_cosine": 0.6881610155105591,
+        "state_rms_ratio": 0.9001632928848267
+      },
+      {
+        "prompt": "sftberlin; deadmau5, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 2,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.5213311910629272,
+        "state_cosine": 0.855566143989563,
+        "state_rms_ratio": 0.9170464277267456
+      },
+      {
+        "prompt": "sftberlin; techno, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 3,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.41536086797714233,
+        "state_cosine": 0.9111955761909485,
+        "state_rms_ratio": 0.9641304016113281
+      },
+      {
+        "prompt": "sftberlin; trance, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 4,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.4226512014865875,
+        "state_cosine": 0.9093107581138611,
+        "state_rms_ratio": 0.9833373427391052
+      },
+      {
+        "prompt": "sftberlin; aphex, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 5,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.403667688369751,
+        "state_cosine": 0.9149138331413269,
+        "state_rms_ratio": 0.9110466241836548
+      },
+      {
+        "prompt": "sftberlin; house, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 6,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.446810781955719,
+        "state_cosine": 0.8993834257125854,
+        "state_rms_ratio": 0.9917429089546204
+      },
+      {
+        "prompt": "sftberlin; electro, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 7,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.3989452123641968,
+        "state_cosine": 0.9188119173049927,
+        "state_rms_ratio": 0.9768836498260498
+      },
+      {
+        "prompt": "sftberlin; groove, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 8,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.4845060706138611,
+        "state_cosine": 0.8775240182876587,
+        "state_rms_ratio": 0.9467677474021912
+      },
+      {
+        "prompt": "70s vintage funk groove, slap bass, brass horns section, clean rhythm guitar, warm analog sound",
+        "sample_index": 9,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.8625527024269104,
+        "state_cosine": 0.5938652753829956,
+        "state_rms_ratio": 0.9047882556915283
+      },
+      {
+        "prompt": "sftberlin; vitalic, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 10,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.6546654105186462,
+        "state_cosine": 0.8007124662399292,
+        "state_rms_ratio": 1.0647717714309692
+      },
+      {
+        "prompt": "sftberlin; daft, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 11,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.39345529675483704,
+        "state_cosine": 0.920080304145813,
+        "state_rms_ratio": 0.9568900465965271
+      },
+      {
+        "prompt": "sftberlin; disco, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 12,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.5360591411590576,
+        "state_cosine": 0.847253680229187,
+        "state_rms_ratio": 0.9193515777587891
+      },
+      {
+        "prompt": "sftberlin; drum, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 13,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.46824175119400024,
+        "state_cosine": 0.888567328453064,
+        "state_rms_ratio": 0.982387363910675
+      },
+      {
+        "prompt": "sftberlin; ambient, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+        "sample_index": 14,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.5688822865486145,
+        "state_cosine": 0.8341488838195801,
+        "state_rms_ratio": 0.9735444188117981
+      },
+      {
+        "prompt": "classic rock track, electric guitar riff, driving acoustic drums, bassline, vintage tube amp tone",
+        "sample_index": 15,
+        "step": 4,
+        "sigma": 0.0,
+        "terminal": true,
+        "state_relative_error": 0.6808898448944092,
+        "state_cosine": 0.7510774731636047,
+        "state_rms_ratio": 0.9175952672958374
+      }
+    ],
+    "terminal_state_mean_cosine": 0.8444834165275097,
+    "terminal_state_min_cosine": 0.5938652753829956,
+    "state_mean_cosine": 0.9558887034654617,
+    "state_min_cosine": 0.5938652753829956,
+    "velocity_mean_cosine": 0.8768277317285538,
+    "velocity_min_cosine": 0.4926295280456543,
+    "teacher_on_student_velocity_mean_cosine": 0.9093305757269263,
+    "teacher_on_student_velocity_min_cosine": 0.6724344491958618
+  },
+  "elapsed_seconds": 198.76334691047668,
+  "memory": {
+    "metal_active_gb": 4.077336831018329,
+    "metal_peak_gb": 5.089139083400369
+  }
+}

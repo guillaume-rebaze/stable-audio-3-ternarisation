@@ -1,0 +1,64 @@
+{
+  "audio_cosine": 0.852055836205657,
+  "audio_relative_l2": 0.541356693825758,
+  "finite": true,
+  "latent_relative_l2": 0.39634054123227247,
+  "records_checkpoint": "/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/full-dit-cascade-g32-112/cascade-block23-g32/pointwise/records_checkpoint.npz",
+  "sample_rate_match": true,
+  "schema": "onus.ternary-quality/v9-audio-canary",
+  "student": {
+    "audio_finite": true,
+    "audio_shape": [
+      2,
+      524288
+    ],
+    "duration_seconds": 11.888616780045352,
+    "input_shape": [
+      1,
+      256,
+      128
+    ],
+    "latent": "/var/folders/gj/tcsh0br141q1f8cvsfrl_k540000gn/T/ternary-bonsai-audio-z52psa95/student.npy",
+    "latent_shape": [
+      1,
+      256,
+      128
+    ],
+    "peak": 0.7112948298454285,
+    "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+    "rms": 0.15744341909885406,
+    "role": "student",
+    "sample_rate": 44100,
+    "stdout_tail": "{\"audio_finite\": true, \"audio_shape\": [2, 524288], \"duration_seconds\": 11.888616780045352, \"input_shape\": [1, 256, 128], \"latent\": \"/var/folders/gj/tcsh0br141q1f8cvsfrl_k540000gn/T/ternary-bonsai-audio-z52psa95/student.npy\", \"latent_shape\": [1, 256, 128], \"peak\": 0.7112948298454285, \"prompt\": \"sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics\", \"rms\": 0.15744341909885406, \"role\": \"student\", \"sample_rate\": 44100, \"timestep_dtype\": \"mlx.core.float32\", \"wav\": \"/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/full-dit-cascade-g32-112/cascade-block23-g32/pointwise/audio-canary-4steps-128/student.wav\"}\n",
+    "timestep_dtype": "mlx.core.float32",
+    "wav": "/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/full-dit-cascade-g32-112/cascade-block23-g32/pointwise/audio-canary-4steps-128/student.wav"
+  },
+  "teacher": {
+    "audio_finite": true,
+    "audio_shape": [
+      2,
+      524288
+    ],
+    "duration_seconds": 11.888616780045352,
+    "input_shape": [
+      1,
+      256,
+      128
+    ],
+    "latent": "/var/folders/gj/tcsh0br141q1f8cvsfrl_k540000gn/T/ternary-bonsai-audio-z52psa95/teacher.npy",
+    "latent_shape": [
+      1,
+      256,
+      128
+    ],
+    "peak": 0.7168396711349487,
+    "prompt": "sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics",
+    "rms": 0.15901188552379608,
+    "role": "teacher",
+    "sample_rate": 44100,
+    "stdout_tail": "{\"audio_finite\": true, \"audio_shape\": [2, 524288], \"duration_seconds\": 11.888616780045352, \"input_shape\": [1, 256, 128], \"latent\": \"/var/folders/gj/tcsh0br141q1f8cvsfrl_k540000gn/T/ternary-bonsai-audio-z52psa95/teacher.npy\", \"latent_shape\": [1, 256, 128], \"peak\": 0.7168396711349487, \"prompt\": \"sftberlin; dub, electronic, club, groove; 126 BPM; dense rhythm, clean mix, rich harmonics\", \"rms\": 0.15901188552379608, \"role\": \"teacher\", \"sample_rate\": 44100, \"timestep_dtype\": \"mlx.core.float32\", \"wav\": \"/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/full-dit-cascade-g32-112/cascade-block23-g32/pointwise/audio-canary-4steps-128/teacher.wav\"}\n",
+    "timestep_dtype": "mlx.core.float32",
+    "wav": "/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/full-dit-cascade-g32-112/cascade-block23-g32/pointwise/audio-canary-4steps-128/teacher.wav"
+  },
+  "technical_pass": true
+}

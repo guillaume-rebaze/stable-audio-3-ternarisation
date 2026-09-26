@@ -1,0 +1,67 @@
+{
+  "schema": "onus.ternary-quality/v3-config",
+  "dataset": {
+    "train_dir": "output/sample-expertise-pilot/ternary-quality-v3/g2-authorized-expanded-v3/train",
+    "independent_validation_dir": "output/sample-expertise-pilot/ternary-quality-v3/g2-authorized-expanded-v3/validation",
+    "independent_test_dir": "output/sample-expertise-pilot/ternary-quality-v3/g2-authorized-expanded-v3/test",
+    "min_train_parents": 64,
+    "min_validation_parents": 24,
+    "min_validation_prompts": 12,
+    "min_test_prompts": 24
+  },
+  "teacher": {
+    "weights": "$ONUS_MLX_RUNTIME/models/mlx/dit_medium_f16.npz",
+    "text_encoder": "runtime:T5GEMMA_NPZ_REL",
+    "codec": "runtime:SA3_DECODER",
+    "sampler": "pingpong_logsnr_v1"
+  },
+  "model": {
+    "dit": "medium",
+    "crop_len": 128,
+    "blocks": 24,
+    "core_names": [
+      "self_attn.to_qkv",
+      "self_attn.to_out",
+      "cross_attn.to_q",
+      "cross_attn.to_kv",
+      "cross_attn.to_out",
+      "ff.ff.0.proj",
+      "ff.ff.2"
+    ]
+  },
+  "quantizer": {
+    "mode": "symmetric",
+    "group_size": 64,
+    "allowed_group_sizes": [32, 64, 128],
+    "storage": "symmetric_compact",
+    "rotation": null
+  },
+  "training": {
+    "steps_per_block": 200,
+    "checkpoint_every_steps": 50,
+    "checkpoint_every_blocks": 1,
+    "batch_size": 1,
+    "gradient_accumulation": 4,
+    "learning_rate": 0.00002,
+    "gradient_clip": 1.0,
+    "weight_decay": 0.0,
+    "seed": 20260922,
+    "sigma_grid": [0.95, 0.75, 0.5, 0.35, 0.25, 0.15, 0.1]
+  },
+  "gates": {
+    "reload_max_relative_error": 0.000001,
+    "reload_min_cosine": 0.999999,
+    "candidate_velocity_mean_cosine": 0.9,
+    "candidate_velocity_min_cosine": 0.8,
+    "release_velocity_mean_cosine": 0.93,
+    "release_velocity_min_cosine": 0.85,
+    "max_artifact_bytes": 500000000,
+    "max_accelerator_bytes": 11000000000
+  },
+  "resources": {
+    "max_accelerator_gib": 12.0,
+    "reserve_disk_gib": 15.0,
+    "single_large_job": true,
+    "rss_and_swap_required": true
+  }
+}

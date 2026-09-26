@@ -1,0 +1,36 @@
+{
+  "core_count": 168,
+  "forward": {
+    "cosine": 1.0000000000000002,
+    "finite": true,
+    "relative_l2": 0.0,
+    "shape": [
+      1,
+      256,
+      128
+    ]
+  },
+  "modes": [
+    "symmetric",
+    "symmetric_hadamard"
+  ],
+  "parameter_reload": {
+    "actual_count": 732,
+    "exact": true,
+    "expected_count": 732,
+    "mismatches": [],
+    "missing": [],
+    "unexpected": []
+  },
+  "payload": "/Users/guillaumegaillard/Documents/perso/abelton/output/sample-expertise-pilot/ternary-quality-v9-bonsai-pilot/final-ternary-bonsai-g32-v10/payload.npz",
+  "payload_bytes": 513342833,
+  "payload_sha256": "1e2206181875d74c6a21e51120b3366ca5b9cadd038df47e157ea54d1ce4fa04",
+  "schema": "onus.ternary-quality/v10-bonsai-package-verification",
+  "status": "pass",
+  "support_count": 357,
+  "ternary_code_count": 1358954496,
+  "thresholds": {
+    "cosine_min": 0.99999,
+    "relative_l2_max": 0.001
+  }
+}
