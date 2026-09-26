@@ -14,6 +14,11 @@ code and large working directories behind.
 | `services/musicgen/*distill*.py` | `services/musicgen/` |
 | `services/musicgen/*quantiz*.py` | `services/musicgen/` |
 | `services/musicgen/*audit*.py`, `*calibrate*.py`, `*profile*.py` | `services/musicgen/` |
+| `services/musicgen/calibrate_ttq_threshold_grid_v7.py` | `services/musicgen/calibrate_ttq_threshold_grid_v7.py` |
+| `services/musicgen/encode_sftminimal.py` | `services/musicgen/encode_sftminimal.py` |
+| `services/musicgen/prepare_retrain_checkpoint.py` | `services/musicgen/prepare_retrain_checkpoint.py` |
+| `services/musicgen/render_progressive_qat_30s_audios.py` | `services/musicgen/render_progressive_qat_30s_audios.py` |
+| `services/musicgen/train_progressive_qat_universal.py` | `services/musicgen/train_progressive_qat_universal.py` |
 | `services/musicgen/training_checkpoint.py` | `services/musicgen/training_checkpoint.py` |
 | `services/musicgen/tests/test_ternary*.py` | `services/musicgen/tests/` |
 | `services/musicgen/tests/test_run_sftberlin_quantized.py` | `services/musicgen/tests/` |
@@ -66,4 +71,3 @@ Start from a clean source checkout, inspect the matching filename patterns, and
 copy only the files needed for a declared run. Do not copy every `output/`
 directory into Git. Keep large intermediates in external storage and place
 their SHA-256 and role in a small evidence manifest.
-
