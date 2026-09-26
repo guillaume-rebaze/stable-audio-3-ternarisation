@@ -2,7 +2,7 @@
 
 Compact model package for personal study. The full extraction and method are
 documented in the [Git repository](https://github.com/guillaume-rebaze/stable-audio-3-ternarisation)
-and the paired [Hugging Face model page](https://huggingface.co/guillaume-rebaze/stable-audio-3-ternarisation).
+and the paired [Hugging Face model page](https://huggingface.co/Gorbad/stable-audio-3-ternarisation).
 
 ## Contenu
 

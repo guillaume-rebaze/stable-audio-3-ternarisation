@@ -10,7 +10,7 @@ abstract: >-
   core with G32 packing, native support tensors, export metadata, and fresh
   reload evidence.
 repository-code: https://github.com/guillaume-rebaze/stable-audio-3-ternarisation
-url: https://huggingface.co/guillaume-rebaze/stable-audio-3-ternarisation
+url: https://huggingface.co/Gorbad/stable-audio-3-ternarisation
 license: other
 keywords:
   - Stable Audio 3

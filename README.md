@@ -110,8 +110,13 @@ checks recorded in [`model/reload_report.json`](model/reload_report.json).
 ## Repository and model card
 
 The canonical Git repository and the corresponding Hugging Face model page
-are kept as paired publication targets. Their links are recorded here and in
-[`model/README.md`](model/README.md). The Hugging Face repository contains
+are kept as paired publication targets:
+
+- GitHub: [guillaume-rebaze/stable-audio-3-ternarisation](https://github.com/guillaume-rebaze/stable-audio-3-ternarisation)
+- Hugging Face: [Gorbad/stable-audio-3-ternarisation](https://huggingface.co/Gorbad/stable-audio-3-ternarisation)
+
+Their links are also recorded in [`model/README.md`](model/README.md). The
+Hugging Face repository contains
 this documentation, the extracted implementation, the evidence and the
 compact package; it does not contain the 2.9 GB dense teacher.
 
@@ -128,4 +133,3 @@ published package small enough to inspect and download.
 If this package is useful in a personal experiment, cite the repository and
 the exact package manifest. The artifact is an engineering study, not an
 official Stability AI release and not a benchmark leaderboard submission.
-
